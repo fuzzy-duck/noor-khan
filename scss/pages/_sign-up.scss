@@ -1,0 +1,48 @@
+#sign-up {
+    section {
+        padding: $bodyPadding;
+        .carousel {
+            .owl-carousel {
+                .owl-nav {
+                    //margin-top: -90px;
+                }
+                .owl-dots {
+                    margin-top: -50px;
+                    bottom: 6px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        bottom: 40px;
+                        margin-top: -0px;
+                    }
+                }
+                .zoom {
+                    bottom: 0px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        bottom: 36px;
+                    }
+                }
+            }
+            .owl-item {
+                .item {
+                    .img {
+                        height: 100%;
+                        &:nth-child(1) {
+                            background: url(assets/img/uniform-noor.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                        &:nth-child(2) {
+                            background: url(assets/img/uniform-noor.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                        &:nth-child(3) {
+                            background: url(assets/img/uniform-noor.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fixed-nav { bottom: 0;}
+    .border { margin: 50px auto 0px; }
+    .head { margin: 0px auto 50px; }
+}

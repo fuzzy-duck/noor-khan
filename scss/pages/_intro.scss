@@ -1,0 +1,31 @@
+#intro {
+    .upper {
+        padding: $bodyPadding;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $tabletPadding;
+        }
+        h2 {
+            color: $yellow;
+        }
+    }
+    .lower {
+        padding: $bodyPadding;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $tabletPadding;
+        }
+        background: $bodyBg;
+        p {
+            font-family: 'NewsPlantinMTStd';
+            font-size: 18px;
+        }
+        .links {
+            a.btn-link:first-of-type {
+                @media screen and (device-aspect-ratio: 40/71) {
+                    span {
+                        padding: 19px;
+                    }
+                }
+            }
+        }
+    }
+}

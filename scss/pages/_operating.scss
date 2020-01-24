@@ -1,0 +1,73 @@
+#operating {
+    .header-bg {
+        background: url(assets/img/paris.png) no-repeat top;
+        background-size: cover;
+        height: 60vh;
+        margin-top: -95px;
+        @media only screen 
+        and (device-width : 375px) 
+        and (device-height : 812px) 
+        and (-webkit-device-pixel-ratio : 3) { 
+            height: 50vh;
+        }
+        .overlay {
+            height: 25%;
+            width: 100%;
+            background-image: linear-gradient(to bottom, #212044, rgba(33,32,68, 0.3));
+        }
+        .overlay-2 {
+            height: 75%;
+            width: 100%;
+            position: relative;
+            .trans-bg {
+                position: absolute;
+                bottom: 0;
+                height: 50px;
+                width: 100%;
+                background: rgba(33,32,68, 0.3);
+            }
+        }
+        .zoom {
+            background: url(assets/icon/zoom.svg) no-repeat center center;
+            background-size: contain;
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            bottom: 20%;
+            left: 5%;
+            @media only screen 
+                and (device-width : 375px) 
+                and (device-height : 812px) 
+                and (-webkit-device-pixel-ratio : 3) { 
+                    bottom: 20%;
+                    left: 5%;
+                }
+        }
+    }
+    section {
+        padding: $bodyPadding;
+
+        .lower {
+            .carousel .owl-item .item .img {
+                &:nth-child(1) {
+                    background: url(assets/img/radio-box.png) no-repeat center center;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(assets/img/radio-box.png) no-repeat center center;
+                    background-size: contain;
+                }
+                &:nth-child(3) {
+                    background: url(assets/img/radio-box.png) no-repeat center center;
+                    background-size: contain;
+                }
+            }
+            .owl-dots {
+                bottom: 70px;
+            }
+            .zoom {
+                bottom: 65px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,188 @@
+#chapters {
+    background: $chapBg;
+    overflow: hidden;
+    .nav {
+        width: 100%;
+        height: 35px;
+        background: transparent;
+        position: relative;
+        z-index: 20;
+    }
+    .header {
+        height: 91vh;
+        width: 100vw;
+        position: relative;
+        .header-img {
+            width: 100%;
+            height: 100%;
+            background-size: cover !important;
+            position: absolute;
+            top: 0;
+            .title {
+                text-align: center;
+                font-family: 'Alata-Regular';
+                padding-top: 30px;
+                h3 {
+                    line-height: 0;
+                }
+            }
+        }
+    }
+    .scroll {
+        color: $white;
+        font-size: 10px;
+        text-align: center;
+        left: 50%;
+        bottom: 9%;
+        transform: translate(-50%);
+        position: absolute;
+        width: 100%;
+        background: rgba(33,32,68,0.3);
+        p {
+            font-size: 10px;
+        }
+        .line {
+            width: 1px;
+            height: 20px;
+            background: $white;
+            margin: auto;
+
+        }
+    }
+
+    .lower {
+        background-color: $chapBgLower;
+        display: grid;
+        grid-template-rows: 1fr;
+        padding: $bodyPadding;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $tabletPadding;
+        }
+        .link {
+            margin: 0 auto;
+            width: 300px;
+            height: 350px;
+            margin-bottom: 70px;
+            @media screen and (device-aspect-ratio: 40/71) {
+                width: 260px;
+                height: 260px;
+            }
+            .img {
+                height: 100%;
+                width: 125%;
+                margin-left: -35px;
+                background-size: contain !important;
+            }
+            img:nth-last-of-type() {
+                width: 100%;
+                margin-left: 0px;
+            }
+            a.btn-link button {
+                display: flex;
+                width: 75%;
+                height: 100px;
+                margin: -60px auto 30px;
+                span {
+                    padding: 0px 20px;
+                    font-family: 'Alata-Regular';
+                    letter-spacing: .2em;
+                    font-weight: 600;
+                    height: 60px;
+                    display: flex;
+                    text-align: left;
+                    align-items: center;
+                }
+                .icon-box {
+                    height: 60px;
+                }
+            }
+            link:nth-last-of-type() {
+                height: 300px;
+            }
+        }
+        .border-white {
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+// Page specific
+.page-id-63 {
+    #chapters {
+        .header {
+            .header-img {
+                height: 95% !important;
+            }
+            @media (min-width: 768px) and (max-width: 1024px) {
+                height: 110vh;
+            }
+            @media only screen 
+                and (device-width : 375px) 
+                and (device-height : 812px) 
+                and (-webkit-device-pixel-ratio : 3) {
+                    height: 102vh;
+            }
+        }
+
+    .lower {
+        @media (min-width: 768px) and (max-width: 1024px) {
+            margin-top: -19vh;
+            position: relative;
+        }
+        @media only screen 
+        and (device-width : 375px) 
+        and (device-height : 812px) 
+        and (-webkit-device-pixel-ratio : 3) { 
+            margin-top: -12vh;
+            }
+        }
+    }
+    #chapters .scroll {
+        margin-top: -30px;
+    }
+    #chapters .scroll p {
+        margin-top: 0px;
+    }
+    #chapters .scroll .line {
+        height: 20px;
+    }
+}
+
+.page-id-136 {
+    .lower {
+        .link {
+            &:nth-child(2) {
+                .img {
+                    width: 200% !important;
+                    margin-left: -50% !important;
+                }
+            }
+        }
+    }
+}
+
+.page-id-126 {
+    .lower {
+        .link {
+            &:nth-child(1) {
+                .img {
+                    width: 200%;
+                    height: 115%;
+                    margin-left: -50%;
+                }
+            }
+            .img {
+                height: 111% !important;
+                width: 130% !important;
+                margin-left: -35px !important;
+            }
+        }
+        .border-white {
+            margin-top: 50px;
+        }
+        .link:nth-last-of-type {
+            margin-bottom: 50px;
+        }
+    }
+}

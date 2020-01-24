@@ -1,0 +1,24 @@
+#cover {
+    section {
+        padding: $bodyPadding;
+        overflow: hidden;
+        .msg {
+            width: 100%;
+            height: 450px;
+            position: relative;
+            .img {
+                background: url(assets/img/madeline.png) no-repeat center center;
+                background-size: cover;
+                width: 138%;
+                height: 100%;
+                position: absolute;
+                right: -80px;
+                left: -30px;
+            }
+        }
+        .head {
+            width: 75%;
+            margin: 50px auto;
+        }
+    }
+}

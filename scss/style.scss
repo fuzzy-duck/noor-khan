@@ -1,0 +1,60 @@
+/*
+Theme Name: Noor Khan - Commonwealth War Graves
+Theme URI: http://wordpress.org/themes/noor-khan
+Author: Fuzzy Duck (Rhys)
+Author URI: http://wordpress.org/
+Description: Noor Khan - Commonwealth War Graves
+Version: 1.0
+*/
+
+/*
+Global
+*/
+@import 'global/_global';
+@import 'global/_typography';
+@import 'global/_nav';
+@import 'global/_owl';
+
+/*
+Pages
+*/
+@import 'pages/_home';
+@import 'pages/_intro';
+@import 'pages/_runnymede';
+@import 'pages/_credits';
+@import 'pages/_about';
+
+@import 'pages/_chapters';
+
+// Ch1
+@import 'pages/_unlikely-spy';
+@import 'pages/_contribution';
+@import 'pages/_video';
+
+// Ch2
+@import 'pages/_upbringing';
+@import 'pages/_artistic';
+
+// Ch3
+@import 'pages/_noor-help';
+@import 'pages/_soe';
+@import 'pages/_sign-up';
+@import 'pages/_role';
+@import 'pages/_qa';
+
+// Ch4 
+@import 'pages/_becoming';
+@import 'pages/_s&d';
+@import 'pages/_cover';
+
+// Ch5
+@import 'pages/_operating';
+@import 'pages/_betrayal';
+
+// Ch6
+@import 'pages/_execution';
+@import 'pages/_after';
+@import 'pages/_meaning';
+
+
+@import 'pages/_morse';

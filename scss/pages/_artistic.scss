@@ -1,0 +1,58 @@
+#artistic {
+    section {
+        padding: $bodyPadding;
+        .upper .carousel .owl-item .item .img {
+            &:nth-child(1) {
+                background: url(assets/img/noor-sitar.png) no-repeat center center;
+                background-size: cover;
+            }
+            &:nth-child(2) {
+                background: url(assets/img/noor-sitar.png) no-repeat center center;
+                background-size: cover;
+            }
+            &:nth-child(3) {
+                background: url(assets/img/noor-sitar.png) no-repeat center center;
+                background-size: cover;
+            }
+        }
+        .lower .carousel .owl-item .item .img {
+            &:nth-child(1) {
+                background: url(assets/img/noor-famalam.png) no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(2) {
+                background: url(assets/img/noor-famalam.png) no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(3) {
+                background: url(assets/img/noor-famalam.png) no-repeat center center;
+                background-size: contain;
+            }
+        }
+        .lower .carousel {
+            margin-top: -50px;
+        }
+        .lower .owl-carousel .owl-dots {
+            width: 100%;
+            //margin-top: -116px;
+        }
+        .btm-links {
+            margin-bottom: 100px;
+        }
+        .links a.btn-back button {
+            width: 50%;
+        }
+        .lower .carousel .owl-item .item .zoom {
+            bottom: 70px;
+            @media screen and (device-aspect-ratio: 40/71) {
+                bottom: 90px;
+            }
+        }
+        .lower .carousel .owl-carousel .owl-dots {
+            bottom: 73px;
+            @media screen and (device-aspect-ratio: 40/71) {
+                bottom: 94px;
+            }
+        }
+    }
+}

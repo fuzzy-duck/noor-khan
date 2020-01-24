@@ -1,0 +1,233 @@
+#contribution {
+    section {
+        padding: $bodyPadding;
+        overflow: hidden;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $tabletPadding;
+        }
+        .carousel .owl-carousel .owl-dots {
+            margin-top: -90px;
+            width: 100%;
+        }
+        .carousel .owl-carousel .owl-nav {
+            margin-top: -30px;
+            @media (min-width: 768px) and (max-width: 1024px) {
+                width: 100%;
+            }
+        }
+        .owl-item {
+            .item {
+                .img {
+                    &:nth-child(1) {
+                        background: url(assets/img/ceiling.png) no-repeat center center;
+                        background-size: cover;
+                    }
+                    &:nth-child(2) {
+                        background: url(assets/img/ceiling.png) no-repeat center center;
+                        background-size: cover;
+                    }
+                    &:nth-child(3) {
+                        background: url(assets/img/ceiling.png) no-repeat center center;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+        .zoom {
+            bottom: 40px;
+            @media (min-width: 768px) and (max-width: 1024px) {
+                left: 12px;
+            }
+        }
+        .tiles-grid {
+            display: grid;
+            grid-template-rows: 1fr;
+            height: 300px;
+            .tile {
+                display: grid;
+                grid-template-columns:repeat(2, 1fr);
+                position: relative;
+                font-size: 16px;
+                .img {
+                    pointer-events: none;
+                    position: relative;
+                }
+                .img-01 {
+                    background: url(assets/img/ardua.png) no-repeat center center;
+                    background-size: contain;
+                    width: 300px;
+                    margin-left: -115px; 
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 210px;
+                    }
+                    @media (min-width: 768px) and (max-width: 1024px) {
+                        margin-left: 0px;
+                    }
+                }
+                .img-02 {
+                    background: url(assets/img/ceiling-01.png) no-repeat center center;
+                    background-size: contain; 
+                    width: 200px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 180px;
+                    }
+                }
+                .img-03 {
+                    background: url(assets/img/ceiling-02.png) no-repeat center center;
+                    background-size: contain;
+                    width: 200px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 150px;
+                    } 
+                }
+                .img-04 {
+                    background: url(assets/img/ceiling-03.png) no-repeat center center;
+                    background-size: contain;
+                    width: 200px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 160px;
+                    } 
+                }
+                .img-05 {
+                    background: url(assets/img/ceiling-04.png) no-repeat center center;
+                    background-size: contain; 
+                    width: 260px;
+                    margin-left: -70px;
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 210px;
+                    }
+                }
+                .img-06 {
+                    background: url(assets/img/ceiling-05.png) no-repeat center center;
+                    background-size: contain; 
+                    width: 200px; 
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        width: 180px;
+                    } 
+                }
+                .text-01 {
+                    position: absolute;
+                    left: 26%;
+                    top: 62%;
+                    transform: translateY(-50%);
+                    @media screen and (device-aspect-ratio: 40/71) {
+                        margin-left: -35px;
+                    }
+                    @media (min-width: 768px) and (max-width: 1024px) {
+                        left: 43%;
+                    }
+                    .info {
+                        .text {
+                            grid-template-columns: 90px 150px;
+                        }
+                    }
+                } 
+                .text-02 {
+                    margin-top: 80px;
+                }
+                .text-03 {
+                    margin-top: 80px;
+                    margin-left: 25px;
+                }
+                .text-04 {
+                    margin-top: 80px;
+                }
+                .text-05 {
+                    margin-top: 80px;
+                    margin-left: 25px;
+                }
+                .text-06 {
+                    margin-top: 80px;
+                }
+                span {
+                    color: $yellow;
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-family: 'Alata-Regular';
+                }              
+            }
+        }
+
+        .info {
+            .text {
+                display: grid;
+                grid-template-columns: 90px 200px;
+                margin-bottom: 50px;
+                @media screen and (device-aspect-ratio: 40/71) {
+                    margin-left: -20px;
+                } 
+                .col {
+                    &:nth-child(1) {
+                        grid-column: 1;
+                        display: grid;
+                        grid-template-rows: repeat(4, 50px);
+                        align-items: center;
+                        padding-right: 20px;
+                        p {
+                            color: $yellow;
+                            font-family: 'Alata-Regular';
+                            font-size: 20px;
+                            text-align: right;
+                        }
+                    }
+                    &:nth-child(2) {
+                        grid-column: 2;
+                        display: grid;
+                        grid-template-rows: repeat(4, 50px);
+                        align-items: center;
+                        p {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bars {
+            .bar-chart {
+
+                $barChartCapWidth: 1rem;
+                $animationTime: 1.3s;
+                
+                background: $lightBlue;
+                height: 35px;
+                margin-bottom: 20px;
+                
+                .bar-chart--inner {
+                    background: #333;
+                    height: 100%;
+                    display: block;
+                    margin-bottom: .3rem;
+                    position: relative;
+                    will-change: width;
+                    padding-top: 6px;
+                    color: $subBlack;
+                    &:after {
+                        position: absolute;
+                        top: 0; right: 0; content: " ";
+                        width: $barChartCapWidth; height: 100%;
+                    }
+                }
+
+                .bar-chart--text {
+                    margin-left: 10px;
+                    font-family: 'Alata-Regular';
+                }
+                
+                // with animation
+                &[animated] .bar-chart--inner { transition: width $animationTime;}
+                
+                // colors
+                &.primary .bar-chart--inner { background: $yellow; }
+                &.secondary .bar-chart--inner { background: $yellow; }
+                &.tertiary .bar-chart--inner { background: $yellow; }
+                
+            }
+        }
+
+        canvas {
+            margin: 50px 0px;
+        }
+
+    }
+}

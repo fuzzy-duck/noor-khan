@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Alata-Regular';
+    src: url('fonts/Alata-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NewsPlantinMTStd';
+    src: url('fonts/NewsPlantinMTStd.otf');
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Alata-Regular';
+    text-transform: uppercase;
+    font-size: calc(1.4em + 1vw);
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        font-size: calc(2.2em + 1vw);
+      }
+}
+
+h2 {
+    font-family: 'Alata-Regular';
+    font-size: 28px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: calc(1em + 1vw);
+    font-family: 'Alata-Regular';
+    font-weight: 100;
+    @media (min-width: 768px) and (max-width: 1024px) {
+        font-size: calc(1.8em + 1vw);
+    } 
+
+}
+
+h5 {
+    font-size: 10px;
+    font-family: 'Alata-Regular';
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'NewsPlantinMTStd';
+    line-height: 1.4em;
+}

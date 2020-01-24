@@ -1,0 +1,137 @@
+#becoming {
+    section {
+        padding: $bodyPadding;
+        .map {
+            height: 300px;
+            width: 100%;
+            .map-bg {
+                background: url(assets/img/uk-map.svg) no-repeat center center;
+                background-size: contain;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .number {
+                    width: 35px;
+                    height: 36px;
+                    border-radius: 100%;
+                    background-color: $yellow;
+                    color: $subBlack;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    font-size: 22px;
+                    font-weight: 500;
+                    font-family: 'Alata-Regular';
+                    transition: 0.5s ease;
+                    &:nth-child(1) {
+                        top: 92%;
+                        left: 75%;
+                        @media screen and (device-aspect-ratio: 40/71) {
+                            top: 88%;
+                            left: 78%;
+                        }
+                    }
+                    &:nth-child(2) {
+                        top: 93%;
+                        left: 51%;
+                        @media screen and (device-aspect-ratio: 40/71) {
+                            top: 91%;
+                            left: 46%;
+                        }
+                    }
+                    &:nth-child(3) {
+                        top: 60%;
+                        left: 72%;
+                        @media screen and (device-aspect-ratio: 40/71) {
+                            top: 56%;
+                            left: 75%;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.5);
+                    }
+                }
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 8888; 
+                    left: 0;
+                    top: 0;
+                    width: 100%; 
+                    height: 100%;
+                    overflow: auto; 
+                    background-color: rgb(0,0,0); 
+                    background-color: rgba(0,0,0,0.4);
+
+                    transition: 0.8s;
+                    transition-timing-function: cubic-bezier(.63,-0.33,.32,1.4);
+                }
+
+                .modal-content {
+                    background-color: $lightBlue;
+                    margin: 15vh auto; 
+                    padding: 20px;
+                    border: 3px solid $white;
+                    width: 90%;
+                    position: relative;
+                    transition: 0.8s;
+                    transition-timing-function: cubic-bezier(.63,-0.33,.32,1.4);
+
+                    h2 {
+                        margin: 10px 0px !important;
+                        width: 80%;
+                    }
+
+                    ul {
+                        height: 200px;
+                        overflow-x: scroll;
+                        padding: 20px;
+                        li {
+                            line-height: 1.4em;
+                            font-family: 'NewsPlantinMTStd';
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .close {
+                    grid-column: 2;
+                    top: 30px;
+                    right: 50px;
+                    color: white;
+                    z-index: 3;
+                    cursor: pointer;
+                    position: absolute;
+                    span,
+                    span:before,
+                    span:after {
+                      border-radius: 4px;
+                      height: 3px;
+                      width: 35px;
+                      background: white;
+                      position: absolute;
+                      display: block;
+                      content: '';
+                    }
+                    span {
+                      background: transparent;
+                    }
+                    span:before {
+                    transform: rotate(45deg);
+                    }
+                    span:after {
+                    transform: rotate(-45deg);
+                    }
+                }
+            }
+        }
+        h6 {
+            color: $yellow;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-family: 'Alata-Regular';
+            letter-spacing: 0.8px;
+        }
+    }
+}

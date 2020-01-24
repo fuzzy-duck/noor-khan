@@ -1,0 +1,103 @@
+.carousel {
+    height: 400px;
+    width: 100%;
+    .owl-carousel {
+        .owl-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: -50px;
+            width: 100%;
+            @media (min-width: 768px) and (max-width: 1024px) {
+                transform: translate(-50%);
+                width: 47%;
+                left: 50%;
+            }
+            button.owl-prev {
+                position: absolute !important;
+                left: 2px !important;
+                font-size: 60px;
+            }
+            button.owl-next {
+                position: absolute !important;
+                right: 2px !important;
+                font-size: 60px;
+            }
+        }
+        .owl-theme {
+            position: relative;
+        }
+        .owl-dots {
+            width: 100%;
+            margin-top: -50px;
+            position: inherit;
+            display: flex;
+            justify-content: flex-end;
+            background-color: rgba(0, 0, 0, 0.2);
+            height: 43px;
+            pointer-events: none;
+            position: absolute;
+            bottom: 0;
+            @media (min-width: 768px) and (max-width: 1024px) {
+                left: 50%;
+                transform: translateX(-50%);
+                width: 47%;
+            }
+            .owl-dot {
+                pointer-events: all;
+                span {
+                    border: 2px solid $white;
+                    background: transparent;
+                }
+            }
+            .active {
+                span {
+                    border: 2px solid $white;
+                    background: $white !important;
+                }
+            }
+        }
+    }
+    .owl-item {
+        height: 100%;
+        width: 100%;
+        .item {
+            height: 400px;
+            width: 100%;
+            .img {
+                height: 100%;
+                &:nth-child(1) {
+                    background: url(assets/img/holiday.png) no-repeat center center;
+                    background-size: contain;
+                    @media (min-width: 768px) and (max-width: 1024px) {
+                        background-size: contain;
+                    }
+                }
+                &:nth-child(2) {
+                    background: url(assets/img/holiday.png) no-repeat center center;
+                    background-size: contain;
+                }
+                &:nth-child(3) {
+                    background: url(assets/img/holiday.png) no-repeat center center;
+                    background-size: contain;
+                }
+            }
+            .zoom {
+                background: url(assets/icon/zoom.svg) no-repeat center center;
+                background-size: contain;
+                z-index: 30;
+                height: 50px;
+                width: 25px;
+                position: absolute;
+                bottom: -4px;
+                left: 12px;
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    left: 29%;
+                }
+            }
+        }
+    }
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: transparent !important;
+    }
+}

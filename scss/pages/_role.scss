@@ -1,0 +1,22 @@
+#role {
+    section {
+        padding: $bodyPadding;
+        a.alt-btn {
+            width: 120px;
+            background: $yellow;
+            padding: 10px;
+            display: flex;
+            margin: auto;
+            button {
+                width: 120px;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-family: 'Alata-Regular';
+                letter-spacing: 0.1em;
+            }
+        }
+        .border-white {
+            margin: 50px 0px 20px;
+        }
+    }
+}

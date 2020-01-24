@@ -1,0 +1,301 @@
+// Palette
+$black: #000;
+$subBlack: #131824;
+$darkBlue: #212044;
+$purple: #43387C;
+$chapBg: #1C1E53;
+$bodyBg: #383D7C;
+$chapBgLower: #383D7C;
+$white: #fff;
+$yellow: #FFC600;
+$grey: #CBCAD8;
+$lightBlue: #5964A4;
+$social: #2E2E42;
+$peach: #DE765F;
+
+// Vars 
+$padding: calc(1 * 1em);
+$bodyPadding: calc(2 * 1em);  
+$tabletPadding: calc(4 * 1em);  
+
+* { box-sizing: border-box; }
+
+body {
+    background: $darkBlue;
+    color: $white;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing: antialiased; /* WebKit  */
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 280px 60px;
+    padding: 20px $bodyPadding;
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      grid-template-columns: 480px 60px;
+      padding: 20px $tabletPadding;
+    }
+
+    .title {
+      grid-column: 1;
+      text-align: left;
+      text-transform: uppercase;
+      h3 {
+        margin: 5px 0px;
+        font-family: 'Alata-Regular';
+        font-weight: 300;
+        @media screen and (device-aspect-ratio: 40/71) {
+          font-size: 20px;
+        }
+      }
+      h5 {
+        margin: 0px;
+        font-family: 'Alata-Regular';
+        @media screen and (device-aspect-ratio: 40/71) {
+          font-size: 10px;
+        }
+        span {
+          font-size: 6px;
+        }
+      }
+    }
+  }
+
+a.btn-link {
+    button {
+        display: flex;
+        margin: 30px 0px;
+        width: 100%;
+        height: 100%;
+        @media (min-width: 768px) and (max-width: 1024px) {
+          width: 50%;
+        }
+        span {
+            height: 100%;
+            width: 140%;
+            text-transform: uppercase;
+            background: $lightBlue;
+            color: $white;
+            padding: 25px;
+            font-size: 10px;
+            font-weight: 600;
+            p {
+              font-size: 10px;
+            }
+        }
+        .icon-box {
+            height: 62px;
+            width: 65%;
+            background: $yellow;
+            position: relative;
+
+            .icon {
+                background: url(assets/icon/arrow-right.svg) no-repeat center center;
+                background-size: contain;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 25px;
+                height: 25px;
+            }
+            .icon-ply {
+              background: url(assets/icon/play.svg) no-repeat center center;
+              background-size: contain;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 25px;
+              height: 25px;
+          }
+        }
+    }
+}
+
+a.btn-back {
+  button {
+      display: flex;
+      margin: 30px 0px;
+      width: 50%;
+      height: 100%;
+      span {
+          height: 100%;
+          width: 100%;
+          text-transform: uppercase;
+          background: $lightBlue;
+          color: $white;
+          padding: 25px;
+          font-size: 10px;
+          font-weight: 600;
+      }
+      .icon-box {
+          height: 62px;
+          width: 100%;
+          background: $yellow;
+          position: relative;
+
+          @media (min-width: 768px) and (max-width: 1024px) {
+            width: 40%;
+          }
+
+          .icon-bk {
+              background: url(assets/icon/arrow-left.svg) no-repeat center center;
+              background-size: contain;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 25px;
+              height: 25px;
+          }
+          .icon-fwd {
+            background: url(assets/icon/arrow-right.svg) no-repeat center center;
+            background-size: contain;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25px;
+            height: 25px;
+          }
+      }
+  }
+}
+
+.head {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.quote {
+  color: $yellow;
+}
+
+.border {
+    background: $yellow;
+    width: 40px;
+    height: 2px;
+    margin: auto;
+}
+
+.border-dup {
+  background: $yellow;
+  width: 40px;
+  height: 2px;
+  margin: unset;
+}
+
+.border-white {
+  width: 100%;
+  margin: auto;
+  height: 1px;
+  background: $white;
+}
+
+.fixed-nav {
+  bottom: 0;
+}
+
+.links {
+  margin-bottom: 50px;
+  a.btn-back button {
+      width: 100%;
+  }
+}
+
+.links-inline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+  a.btn-back button {
+      width: 100%;
+  }
+}
+
+// Fancybox 
+.fancybox-is-open .fancybox-bg {
+  opacity: .99 !important;
+}
+
+button.fancybox-button.fancybox-button--zoom {
+  display: none !important;
+}
+
+button.fancybox-button.fancybox-button--close {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+button.fancybox-button.fancybox-button--play {
+  display: none;
+}
+
+.fancybox-infobar {
+  display: none;
+}
+
+button.fancybox-button.fancybox-button--arrow_left {
+  display: none;
+}
+
+button.fancybox-button.fancybox-button--arrow_right {
+  display: none;
+}
+
+.fancybox-caption__body {
+  h5 {
+    text-transform: uppercase !important;
+    font-size: 10px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+}
+
+
+// Portrait Lock
+@media only screen and (orientation:landscape) {
+  #turn{ 
+    background: $bodyBg;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    h3 {
+      color: $white;
+      span {
+        color: $yellow;
+      }
+    }
+    p {
+      font-family: 'Alata-Regular';
+      span {
+        color: $yellow;
+        border-bottom: 2px solid $grey;
+        font-size: 20px;
+      }
+    }
+  }
+  main { 
+    display:none !important; 
+  }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  main{ display:block; }
+}

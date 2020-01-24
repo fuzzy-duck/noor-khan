@@ -1,0 +1,39 @@
+#execution {
+    section {
+        padding: $bodyPadding;
+        .lower {
+            .carousel {
+                height: 320px;
+            }
+            .owl-item .item {
+                height: 320px;
+            }
+            .carousel .owl-item .item .img {
+                &:nth-child(1) {
+                    background: url(assets/img/crematorium.png) no-repeat center center;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(assets/img/crematorium.png) no-repeat center center;
+                    background-size: contain;
+                }
+                &:nth-child(3) {
+                    background: url(assets/img/crematorium.png) no-repeat center center;
+                    background-size: contain;
+                }
+            }
+            .owl-dots {
+                bottom: 35px;
+                @media screen and (device-aspect-ratio: 40/71) {
+                    bottom: 57px
+                }
+            }
+            .zoom {
+                bottom: 30px;
+                @media screen and (device-aspect-ratio: 40/71) {
+                    bottom: 52px
+                }
+            }
+        }
+    }
+}

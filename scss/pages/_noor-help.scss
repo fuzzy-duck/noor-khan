@@ -1,0 +1,88 @@
+#noor-help {
+    .header-bg {
+        background: url(assets/img/1192.png) no-repeat top;
+        background-size: cover;
+        height: 60vh;
+        margin-top: -95px;
+        @media only screen 
+        and (device-width : 375px) 
+        and (device-height : 812px) 
+        and (-webkit-device-pixel-ratio : 3) { 
+            height: 50vh;
+        }
+        .overlay {
+            height: 25%;
+            width: 100%;
+            background-image: linear-gradient(to bottom, #212044, rgba(33,32,68, 0.1));
+        }
+        .overlay-2 {
+            height: 75%;
+            width: 100%;
+            position: relative;
+            .trans-bg {
+                position: absolute;
+                bottom: 0;
+                height: 50px;
+                width: 100%;
+                background: rgba(33,32,68, 0.1);
+            }
+        }
+        .zoom {
+            background: url(assets/icon/zoom.svg) no-repeat center center;
+            background-size: contain;
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            bottom: 20%;
+            left: 5%;
+            @media only screen 
+                and (device-width : 375px) 
+                and (device-height : 812px) 
+                and (-webkit-device-pixel-ratio : 3) { 
+                    bottom: 20%;
+                    left: 5%;
+                }
+        }
+    }
+    section {
+        padding: $bodyPadding;
+        .carousel {
+            .owl-item {
+                .item {
+                    .img {
+                        &:nth-child(1) {
+                            background: url(assets/img/khan-children.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                        &:nth-child(2) {
+                            background: url(assets/img/khan-children.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                        &:nth-child(3) {
+                            background: url(assets/img/khan-children.png) no-repeat center center;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+            .zoom {
+                bottom: 16%;
+                @media screen and (device-aspect-ratio: 40/71) {
+                    bottom: 22%;
+                }
+            }
+            .owl-dots {
+                bottom: 72px;
+                @media screen and (device-aspect-ratio: 40/71) {
+                    bottom: 94px;
+                }
+            }
+            .owl-nav {
+                margin-top: -50px;
+            }
+        }
+        .head {
+            margin: 50px 0px;
+        }
+    }
+}

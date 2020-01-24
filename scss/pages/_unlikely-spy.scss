@@ -1,0 +1,46 @@
+#spy {
+    section {
+        padding: $bodyPadding;
+        .carousel {
+            .item {
+                .img {
+                    &:nth-child(1) {
+                        background: url(assets/img/holiday.png) no-repeat center center;
+                        background-size: cover;
+                        @media (min-width: 768px) and (max-width: 1024px) {
+                            background-size: contain;
+                        }
+                    }
+                    &:nth-child(2) {
+                        background: url(assets/img/holiday.png) no-repeat center center;
+                        background-size: cover;
+                        @media (min-width: 768px) and (max-width: 1024px) {
+                            background-size: contain;
+                        }
+                    }
+                    &:nth-child(3) {
+                        background: url(assets/img/holiday.png) no-repeat center center;
+                        background-size: cover;
+                        @media (min-width: 768px) and (max-width: 1024px) {
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fixed-nav {
+        bottom: 0;
+    }
+    .border {
+        margin: 50px auto 0px;
+    }
+    .head {
+        margin: 0px auto 50px;
+    }
+    .lower {
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $bodyPadding;
+        }
+    }
+}

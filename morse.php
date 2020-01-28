@@ -25,18 +25,24 @@
 
     <section>
 
+    <div class="title">
+        <h5>S.O.E Assignment</h5>
+        <h2>WELL DONE!</h2>
+        <p>You cracked the code.<br>
+        Now have a go tapping out a message on the key.</p>
+    </div>
 
-    <h2><?php the_title() ?></h2>
-    <div class="border-dup"></div>
-
-    <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autostart="false" ></audio>
-    <a> <button onclick="PlaySound()" class="test-btn"></button></a>
-    <script>
-    function PlaySound() {
-          var sound = document.getElementById("audio");
-          sound.play()
-      }
-    </script>
+    <div class="morse-foo">
+        <div class="img"></div>
+        <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autostart="false" ></audio>
+        <a> <button onclick="PlaySound()" class="test-btn"></button></a>
+        <script>
+        function PlaySound() {
+            var sound = document.getElementById("audio");
+            sound.play()
+        }
+        </script>
+    </div>
 
 
     <div class="border-white"></div>

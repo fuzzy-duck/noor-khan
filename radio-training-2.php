@@ -82,10 +82,6 @@
         
     </script>
 
-    <div class="links">
-        <a href="<?php echo home_url(); ?>/noor-khan/chapter-05-mission/morse-test/" class="btn-link"><button><span>Next</span><div class="icon-box"><div class="icon"></div></div></button></a>
-    </div>
-
 
     <div class="border-white"></div>
         <div class="links-inline">

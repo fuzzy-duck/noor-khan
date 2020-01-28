@@ -1,6 +1,6 @@
 var lsgwoerter = [
-    ["M", "E", "E", "T", , 
-    "A", "T", , 
+    ["M", "E", "E", "T", "", 
+    "A", "T", "", 
     "C", "L", "O", "C", "K", "T", "O", "W", "E", "R"],
     ]
     var random = Math.floor((Math.random()*(lsgwoerter.length-1))); 
@@ -60,12 +60,13 @@ var lsgwoerter = [
             }
         }
         if(fertig){
-            window.alert("You win!");
+            window.location.replace("http://localhost:8888/noor-khan/chapter-05-mission/morse-test/");
+            //window.alert("You win!");
         }
         
         //once you got six wrong letters, you lose
         if(fehler === 6){
-            window.alert("Uh...I guess you're dead now.");
+            window.alert("Sorry, please try again paying close attention to the Morse Code ");
         }
     }
     

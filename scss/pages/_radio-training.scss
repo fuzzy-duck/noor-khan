@@ -238,5 +238,13 @@
             transform: rotate(-45deg);
             }
           }
+
+          a.btn-link button {
+            display: flex;
+            margin: 30px 0px;
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+        }
     }
 }

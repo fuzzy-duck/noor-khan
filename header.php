@@ -17,6 +17,8 @@
     <script src="<?php echo get_stylesheet_directory_uri(). '/vendor/chartjs-plugin-labels.min.js' ?>"></script>
     <!-- Nav.js -->
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/nav.js' ?>"></script>
+    <!-- Morse Game.js -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/morse-game.js' ?>"></script>
     <!-- fancybox.css -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery.fancybox.min.css' ?>">
     <!-- fancybox.js -->

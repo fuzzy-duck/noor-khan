@@ -1,4 +1,4 @@
-#runnymede {
+#runnymede-nav {
     background: $bodyBg;
     overflow: hidden;
     .header-bg {
@@ -38,8 +38,8 @@
                     width: 35px;
                     height: 36px;
                     border-radius: 100%;
-                    background-color: $yellow;
-                    color: $subBlack;
+                    background-color: $darkBlue;
+                    color: $lightBlue;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -50,7 +50,6 @@
                     &:first-child {
                         top: 75%;
                         left: 47%;
-                    
                         @media only screen 
                             and (device-width : 375px) 
                             and (device-height : 812px) 
@@ -112,28 +111,128 @@
         h5 {
             text-align: center;
             color: $yellow;
-            //margin-top: 0px;
+            margin-top: 0px;
+            @media only screen 
+            and (device-width : 375px) 
+            and (device-height : 812px) 
+            and (-webkit-device-pixel-ratio : 3) { 
+                margin-top: -65px;
+            }
         }
     }
-    .upper {
-        padding: 150px calc(2 * 1em) 0px;  
-        @media (min-width: 768px) {
-            padding: $tabletPadding;
+    section {
+        padding: $bodyPadding;
+        .upper {
+            padding: 50px 0px 0px;  
+            @media (min-width: 768px) {
+                padding: $tabletPadding;
+            }
+            .feature-img {
+                height: 200px;
+                width: 100%;
+                margin: 50px 0px;
+                .img {
+                    background-size: cover !important;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            h1 {
+                color: $yellow;
+                text-align: center;
+                text-transform: none;
+                margin-bottom: 50px;
+            }
+            h5 {
+                color: $yellow;
+                text-align: center;
+            }
+            .dl {
+                margin: 50px 0px;
+                .border {
+                    margin: 50px auto; 
+                }
+            }
+            a.btn-link button span {
+                height: 100%;
+                width: 140%;
+                text-transform: uppercase;
+                background: #5964A4;
+                color: #fff;
+                padding: 25px;
+                font-size: 10px;
+                font-weight: 600;
+                text-align: left;
+            }
         }
-        h1 {
-            color: $yellow;
-            text-align: center;
-            text-transform: none;
-            margin-bottom: 50px;
+    }
+}
+
+// Page specific
+.page-id-278 {
+    #runnymede-nav section .upper a.btn-link button span {
+        padding: 19px;
+    }
+    .map-grid {
+        .number {
+            &:first-child {
+                background-color: $yellow !important;
+                color: $subBlack !important;
+            }
         }
-        h5 {
-            color: $yellow;
-            text-align: center;
+    }
+}
+
+.page-id-287 {
+    .map-grid {
+        .number {
+            &:nth-child(2) {
+                background-color: $yellow !important;
+                color: $subBlack !important;
+            }
         }
-        .dl {
-            margin: 50px 0px;
-            .border {
-                margin: 50px auto; 
+    }
+}
+
+.page-id-294 {
+    .map-grid {
+        .number {
+            &:nth-child(3) {
+                background-color: $yellow !important;
+                color: $subBlack !important;
+            }
+        }
+    }
+}
+
+.page-id-298 {
+    .map-grid {
+        .number {
+            &:nth-child(4) {
+                background-color: $yellow !important;
+                color: $subBlack !important;
+            }
+        }
+    }
+}
+
+.page-id-301 {
+    .map-grid {
+        .number {
+            &:nth-child(5) {
+                background-color: $yellow !important;
+                color: $subBlack !important;
+            }
+        }
+    }
+}
+
+.page-id-305 {
+    .map-grid {
+        .number {
+            &:nth-child(6) {
+                background-color: $yellow !important;
+                color: $subBlack !important;
             }
         }
     }

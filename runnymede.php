@@ -19,35 +19,35 @@
     </header>
     <div class="header-bg">
         <div class="overlay"></div>
-        <div class="trans-bg">
-        <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php echo home_url(); ?>/assets/img/runnymede-memorial.png"></a>
+        <div class="map">
+            <div class="map-grid">
+                <a href="<?php echo home_url(); ?>/intro/entrance" class="number">1</a>
+                <a href="<?php echo home_url(); ?>/intro/raf-eagle" class="number">2</a>
+                <a href="<?php echo home_url(); ?>/intro/date-panels" class="number">3</a>
+                <a href="<?php echo home_url(); ?>/intro/windows-in-shrine" class="number">4</a>
+                <a href="<?php echo home_url(); ?>/intro/tower" class="number">5</a>
+                <a href="<?php echo home_url(); ?>/intro/justice-victory-courage" class="number">6</a>
+            </div>
         </div>
+        <h5>Tap a hotspot to learn more.</h5>
     </div>
-
     <div class="upper">
         <div class="border"></div>
         <div class="head">
-        <h2 class="quote">“<?php the_field('quote_title'); ?>”</h2>
-        </div>
-        <h2><?php the_title() ?></h2>
-        <div class="border-dup"></div>
-        <p><?php the_field('body_paragraph'); ?></p>
+        <h2 class="quote">Per ardua ad astra (through adversity to the stars)</h2>
+        <h5>Motto of the RAF</h5>    
     </div>
-
-    <div class="lower">
-        <h2>Symbolism<br />at Runnymede</h2>
-        <div class="border-dup"></div>
-        <h5>Tap a hotspot to learn more</h5>
-        <div class="map">
-            <div class="map-grid">
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-                <div class="number">6</div>
-            </div>
+        <p>This memorial’s design honours those who served in the air services. Watch today’s aircraft taking off and landing at Heathrow Airport from the tall tower, which mimics an RAF control tower. Explorers will find windows etched with angels, poems, and traces of flight trails. Look up to see domes filled with stars, while compasses are inlaid in the floor. </p>
+        
+        <p>Names appear by year of death, then by unit, then rank, and finally in alphabetical order.</p>
+    
+        <div class="dl">
+            <div class="border"></div>
+            <h5>Who can you find?</h5>
+            <h5>How many symbols can you track down?</h5> 
+            <h5>Tap a hotspot on the map to learn more.</h5>
         </div>
+
         <div class="border-white"></div>
 
         <a href="<?php echo home_url(); ?>/intro"class="btn-back">

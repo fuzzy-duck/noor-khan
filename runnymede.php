@@ -48,15 +48,13 @@
             <h5>Tap a hotspot on the map to learn more.</h5>
         </div>
 
-        <div class="border-white"></div>
-
-        <a href="<?php echo home_url(); ?>/intro"class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
-
     </div>
 
 </main>
+
+    <a href="<?php echo home_url(); ?>/intro" class="btn-back">
+        <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
+    </a>
 
 <div id="turn"><?php include ("turn.php"); ?></div>
 

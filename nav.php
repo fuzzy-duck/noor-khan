@@ -9,6 +9,12 @@
                 <a class="close"><span></span></a>
             </div>
         </div>
+        <a href="<?php echo home_url(); ?>/runnymede"class="nav-map">
+            <div class="content">
+                <div class="icon"></div><div class="text">Runnymede Map</div>
+            </div>
+        </a>
+        <div class="border"></div>
         <nav>
             <ul>
             <li><span>Chapter 1</span>
@@ -40,7 +46,6 @@
             <div class="social">
                 <div class="icon-outer"><a href="#" class="fbook"></a></div>
                 <div class="icon-outer"><a href="#" class="insta"></a></div>
-                <div class="icon-outer"><a href="#" class="linkedin"></a></div>
                 <div class="icon-outer"><a href="#" class="twitter"></a></div>
             </div>
         </div>

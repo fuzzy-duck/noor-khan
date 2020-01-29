@@ -32,16 +32,14 @@
         <div class="links">
             <a href="<?php echo home_url(); ?>/runnymede" class="btn-link"><button><span>Explore Runnymede</span><div class="icon-box"><div class="icon"></div></div></button></a>
         </div>
-
-        <div class="border-white"></div>
-
-        <a onclick="window.history.go(-1); return false;" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
         
     </div>
 
 </main>
+
+    <a onclick="window.history.go(-1); return false;" class="btn-back">
+        <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
+    </a>
 
 <div id="turn"><?php include ("turn.php"); ?></div>
 

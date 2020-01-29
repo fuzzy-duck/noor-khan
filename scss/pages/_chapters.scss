@@ -1,6 +1,7 @@
 #chapters {
-    background: $chapBg;
+    background: $bodyBg;
     overflow: hidden;
+    padding-bottom: 100px;
     .nav {
         width: 100%;
         height: 35px;
@@ -71,7 +72,7 @@
                 height: 100%;
                 width: 125%;
                 margin-left: -35px;
-                background-size: contain !important;
+                background-size: contain;
             }
             img:nth-last-of-type() {
                 width: 100%;
@@ -102,6 +103,32 @@
         }
         .border-white {
             margin-bottom: 50px;
+        }
+    }
+
+    .nav-banner {
+        height: 60px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background: $yellow;
+        margin: 0px 0px 50px;
+        .content {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            justify-content: center;
+            align-items: center;
+            .img {
+                background: url(assets/icon/nav-map.svg) no-repeat center center;
+                background-size: contain;
+                height: 30px;
+                width: 33px;
+            }
+            .text {
+                color: $bodyBg;
+                font-family: 'Alata-Regular';
+            }
         }
     }
 
@@ -137,6 +164,23 @@
             margin-top: -12vh;
             }
         }
+        .link {
+            &:nth-child(1) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(2) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(3) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+        }
     }
     #chapters .scroll {
         margin-top: -30px;
@@ -162,14 +206,96 @@
     }
 }
 
+.page-id-101 {
+    .lower {
+        .link {
+            &:nth-child(1) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(2) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+        }
+    }
+}
+
+.page-id-115 {
+    .lower {
+        .link {
+            &:nth-child(1) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(2) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(3) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(4) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+        }
+    }
+}
+
+.page-id-136 {
+    .lower {
+        .link {
+            &:nth-child(1) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(2) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(3) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+        }
+    }
+}
+
 .page-id-126 {
     .lower {
         .link {
             &:nth-child(1) {
                 .img {
-                    width: 200%;
-                    height: 115%;
-                    margin-left: -50%;
+                    width: 187% !important;
+                    height: 100% !important;
+                    margin-left: -50% !important;
+                    background-size: cover !important;
+                }
+            }
+            &:nth-child(2) {
+                .img {
+                    background-size: cover !important;
+                }
+            }
+            &:nth-child(3) {
+                .img {
+                    background-size: contain !important;
+                }
+            }
+            &:nth-child(4) {
+                .img {
+                    background-size: contain !important;
                 }
             }
             .img {
@@ -183,6 +309,30 @@
         }
         .link:nth-last-of-type {
             margin-bottom: 50px;
+        }
+    }
+}
+
+
+.page-id-145 {
+    .lower {
+        .link { 
+            height: 525px !important; 
+
+            &:nth-child(3) {
+             height: 350px !important;
+            }
+            .img {
+                width: 151% !important;
+                margin-left: -35px !important;
+                background-size: cover !important;
+            }
+            button {
+                margin: -170px auto 30px !important;
+            }
+            button:nth-last-of-type() {
+                margin: -40px auto 30px !important;
+            }
         }
     }
 }

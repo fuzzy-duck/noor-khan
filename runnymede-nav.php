@@ -52,17 +52,17 @@
                 </button>
             </div>
 
-            <div class="border-white"></div>
-
-            <a class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-
-
         </div>
+
     </section>
 
     </main>
+
+    <a class="btn-back" onclick="window.history.go(-1); return false;">
+        <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
+    </a>
+
+
 
 <div id="turn"><?php include ("turn.php"); ?></div>
 

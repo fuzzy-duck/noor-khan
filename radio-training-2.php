@@ -36,10 +36,12 @@
 
         <p id="ratefeld"></p>
         <form name="rateformular">
-        <input name="ratezeichen" type="text" size="5" maxlength="1" placeholder="Guess your letter">
+        <input name="ratezeichen" type="text" size="5" maxlength="1" placeholder="Tap to guess a letter">
         <input name="ratebutton" type="button" value="Guess" onClick="pruefeZeichen()">
 
+        <!--
         <p id="gerateneBuchstaben">Wrong Letters:<br></p>
+        -->
 
     </div>
 

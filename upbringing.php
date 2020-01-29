@@ -35,6 +35,7 @@
                 <div class="number button" data-modal="modalThree">3</div>
                 <div class="number button" data-modal="modalFour">4</div>
                 <div class="number button" data-modal="modalFive">5</div>
+                <div class="number button" data-modal="modalSix">6</div>
 
                 <div id="modalOne" class="modal">
                     <div class="modal-content">
@@ -48,7 +49,19 @@
                     </div>
                 </div>
 
+
                 <div id="modalTwo" class="modal">
+                    <div class="modal-content">
+                        <div class="contact-form">
+                        <a class="close"><span></span></a>
+                        <h2>India</h2>
+                        <div class="border-white"></div>
+                        <p>Noor’s father was born into a family that ran a music academy in Vadodara, Gujarat, and grew into an accomplished musician. A Sufi teacher encouraged him to combine his music and his beliefs and tour the West sharing both.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="modalThree" class="modal">
                     <div class="modal-content">
                         <div class="contact-form">
                         <a class="close"><span></span></a>
@@ -61,7 +74,7 @@
                     </div>
                 </div>
 
-                <div id="modalThree" class="modal">
+                <div id="modalFour" class="modal">
                     <div class="modal-content">
                         <div class="contact-form">
                         <a class="close"><span></span></a>
@@ -73,7 +86,7 @@
                     </div>
                 </div>
 
-                <div id="modalFour" class="modal">
+                <div id="modalFive" class="modal">
                     <div class="modal-content">
                         <div class="contact-form">
                         <a class="close"><span></span></a>
@@ -86,15 +99,13 @@
                     </div>
                 </div>
 
-                <div id="modalFive" class="modal">
+                <div id="modalSix" class="modal">
                     <div class="modal-content">
                         <div class="contact-form">
                         <a class="close"><span></span></a>
-                        <h2>London</h2>
+                        <h2>Paris</h2>
                         <div class="border-white"></div>
-                        <p>In 1920 they settled in a Paris suburb, overlooking the famous Eiffel Tower, Sacré Coeur
-                        and Notre Dame. Noor’s father called their home ‘the house of blessing’. Noor became fluent in
-                        French at school.</p>
+                        <p>In 1922, Noor’s family settled in a Paris suburb, overlooking the famous Eiffel Tower, Sacré Coeur and Notre Dame. Noor’s father called their home Fazal Manzil, ‘the house of blessing’. Noor became fluent in French at school.</p>
                         </div>
                     </div>
                 </div>

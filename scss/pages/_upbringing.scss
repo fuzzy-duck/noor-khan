@@ -6,13 +6,21 @@
             height: 400px;
             width: 180%;
             margin: 20px 0px;
+            @media screen and (device-aspect-ratio: 40/71) {
+                height: 285px;
+            }
             .img {
                 background: url(assets/img/map.svg) no-repeat center center;
                 background-size: initial;
                 height: 100%;
                 width: 100%;
-                margin-left: -33px;
+                margin-left: -75px;
                 position: relative;
+
+                @media screen and (device-aspect-ratio: 40/71) {
+                    background-size: contain;
+                }
+
                 .number {
                     width: 35px;
                     height: 36px;
@@ -28,35 +36,48 @@
                     font-family: 'Alata-Regular';
                     transition: 0.5s ease;
                     &:nth-child(1) {
-                        top: 25%;
+                        top: 27%;
                         left: 57%;
                     }
                     &:nth-child(2) {
-                        top: 38%;
-                        left: 2%;
+                        top: 50%;
+                        left: 68%;
+                        @media screen and (device-aspect-ratio: 40/71) {
+                            top: 46%;
+                            left: 61%;
+                        }
                     }
                     &:nth-child(3) {
-                        top: 30%;
-                        left: 34%;
+                        top: 38%;
+                        left: 8%;
                         @media screen and (device-aspect-ratio: 40/71) {
-                            top: 29%;
-                            left: 32%;
+                            top: 39%;
+                            left: 11%;
                         }
                     }
                     &:nth-child(4) {
-                        top: 19%;
-                        left: 42%;
+                        top: 30%;
+                        left: 36%;
                         @media screen and (device-aspect-ratio: 40/71) {
-                            top: 17%;
-                            left: 40%;
+                            top: 27%;
+                            left: 36%;
                         }
                     }
                     &:nth-child(5) {
+                        top: 22%;
+                        left: 43%;
+                        @media screen and (device-aspect-ratio: 40/71) {
+                            top: 18%;
+                            left: 42%;
+                        }
+                    }
+
+                    &:nth-child(6) {
                         top: 39%;
                         left: 36%;
                         @media screen and (device-aspect-ratio: 40/71) {
                             top: 39%;
-                            left: 32%;
+                            left: 37%;
                         }
                     }
                       

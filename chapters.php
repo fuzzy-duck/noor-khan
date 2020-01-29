@@ -58,47 +58,20 @@ $img = get_field('bg_img');
                     <div class="icon-ply">
                 <?php endif; ?>
                 </div></div></button></a>
-
-
+                </div>
             </div>
 
             <?php endwhile; ?>
         <?php endif; ?>
-
-        <div class="border-white"></div>
-
-        <?php
-
-            if( have_rows('template_img_link') ):
-
-            while ( have_rows('template_img_link') ) : the_row();
-        ?>
-
-        <?php 
-        
-        $pgImg = get_sub_field('pg_img'); 
-        $btnLink = get_sub_field('btn_link');
-        
-        ?>
-
-            <div class="link">
-                <div class="img" style="background: url(<?php echo $pgImg['url']; ?>) no-repeat center center;"></div>
-                <!-- ACF True/False conditional icon display -->
-                <a href="<?php echo $btnLink; ?>" class="btn-link"><button><span><p><?php the_sub_field('btn_text') ?></p></span><div class="icon-box">
-                <?php if ( 'true' == get_sub_field('btn_icon') ): ?>
-                    <div class="icon">
-                <?php else: ?>
-                    <div class="icon-ply">
-                <?php endif; ?>
-                </div></div></button></a>
-
-            </div>
-
-            <?php endwhile; ?>
-        <?php endif; ?>
-
 
     </section>
+
+    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+        <div class="content">
+            <div class="img"></div>
+            <div class="text">Return to Map</div>
+        </div>
+    </a>
 
 </main>
 

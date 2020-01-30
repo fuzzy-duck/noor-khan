@@ -16,11 +16,10 @@
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Before the War</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">2 / 6</p>
+        <p class="pg-title">Before the war</p>
+        <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -156,18 +155,12 @@
             <h2 class="quote">“She combined strength with sweetness in her character”</h2>
             <h5>Historian MRD Foot</h5>
         </div>
-
-        <div class="border-white"></div>
-        <div class="links-inline">
-            <a href="<?php echo home_url(); ?>/chapter-02-before-the-war" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/an-artistic-life/" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
-        </div>
     
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/an-artistic-life/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
 
 </main>
 

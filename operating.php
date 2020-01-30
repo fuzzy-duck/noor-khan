@@ -26,10 +26,9 @@
 
     <div class="fixed-nav">
         <p class="pg-title">Mission</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">5 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-05-mission/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -72,15 +71,9 @@
     one near-capture, she wept and lamented to a friend: “I wish I was with my mother.” In October
     1943 Buckmaster told her she would finally be replaced, and she prepared to head back to the UK.</p>
 
-    <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a onclick="window.history.go(1); return false;" class="btn-back">
+            <a href="<?php echo home_url(); ?>/chapter-05-mission/radio-training-pt-1/" class="btn-back">
                 <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
             </a>
-        </div>
 
     </section>
 

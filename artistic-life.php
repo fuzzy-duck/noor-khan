@@ -16,11 +16,10 @@
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Before the War</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">2 / 6</p>
+        <p class="pg-title">Before the war</p>
+        <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -69,14 +68,15 @@
             </div>
         </div>
 
-        <div class="border-white"></div>
-        <div class="links btm-links">
-            <a href="<?php echo home_url(); ?>/chapter-02-before-the-war" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-        </div>
-
     </section>
+
+    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+        <div class="content">
+            <div class="img"></div>
+            <div class="text">Return to Map</div>
+        </div>
+    </a>
+    
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

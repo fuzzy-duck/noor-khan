@@ -27,7 +27,7 @@ $img = get_field('bg_img');
         <p>scroll</p>
         <div class="line"></div>
     </div>
-    <div class="fixed-nav animated slideInUp">
+    <div class="chap-fixed-nav animated slideInUp">
         <p class="pg-title"><?php the_field('pg_title'); ?></p>
         <div class="pg-nav">
             <a href="<?php the_field('back_pg'); ?>" class="arrow-left"></a>

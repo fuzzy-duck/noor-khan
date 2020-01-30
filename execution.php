@@ -16,11 +16,10 @@
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Execution</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">6 / 6</p>
+        <p class="pg-title">Death & legacy</p>
+        <a href="<?php echo home_url(); ?>/chapter-06-death-legacy/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -55,14 +54,9 @@
     at Dachau and it is not known what happened to her remains.</p>
 
     <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
             <a href="<?php echo home_url(); ?>/chapter-06-death-legacy/after-the-war/" class="btn-back">
                 <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
             </a>
-        </div>
 
     </section>
 

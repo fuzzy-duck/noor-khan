@@ -17,10 +17,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Noor Inayat Khan</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">1 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -55,17 +54,11 @@
         <h2 class="quote">“Madeleine of the Resistance.”</h2>
     </div>
 
-        <div class="border-white"></div>
-            <div class="links-inline">
-                <a onclick="window.history.go(-1); return false;" class="btn-back">
-                    <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-                </a>
-                <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan/contribution/" class="btn-back">
-                    <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-                </a>
-            </div>
-        </div>
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan/contribution/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

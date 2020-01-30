@@ -27,10 +27,9 @@
 
     <div class="fixed-nav">
         <p class="pg-title">Recruitment</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">3 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -73,17 +72,11 @@
     operators suffered the highest casualties as secret agents in Nazi-occupied territory – their life
     expectancy was only 6 weeks – so the SOE was always in need of new recruits.</p>
 
-    <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a href="<?php echo home_url(); ?>/chapter-03-recruitment/soe-2/" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
-        </div>
-
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-03-recruitment/soe-2/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
 
 </main>
 

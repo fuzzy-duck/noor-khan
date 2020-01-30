@@ -27,12 +27,12 @@
         <p>The exhibition tells the story of Noor Inayat-Khan, a Second World War secret agent and one of the most highly decorated women in British military history. In addition, the exhibition aims to help visitors better understand the memorial and discover more about the other 20,000 Airmen and Women who were lost during operations from bases in the United Kingdom and North and Western Europe, who have no known grave. CWGF has been working with young women and girls from the Girlguiding organisation to reinterpret the story of Noor, helping to make it relevant and engaging for a younger generation of visitors.</p>
         <div class="border-white"></div>
 
-        <a href="<?php echo home_url(); ?>/intro" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
-
     </section>
 </main>
+
+    <a href="<?php echo home_url(); ?>/intro" class="btn-back">
+        <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
+    </a>
 
 <div id="turn"><?php include ("turn.php"); ?></div>
 

@@ -17,10 +17,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Training</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">4 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-04-training/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -54,17 +53,15 @@
     friends, ticket stubs, receipts, a ration card and other personal items to lend weight to her cover
     story. She was also given a money belt containing thousands of francs.</p>
 
-    <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a onclick="window.history.go(1); return false;" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
-        </div>
 
         </section>
+
+        <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+        <div class="content">
+            <div class="img"></div>
+            <div class="text">Return to Map</div>
+        </div>
+    </a>
 
     </main>
 

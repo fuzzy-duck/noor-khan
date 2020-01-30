@@ -24,6 +24,9 @@ h2 {
     font-family: 'Alata-Regular';
     font-size: 28px;
     font-weight: 200;
+    @media screen and (device-aspect-ratio: 40/71) {
+        font-size: 24px;
+    }
 }
 
 h3 {

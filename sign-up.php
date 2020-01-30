@@ -16,10 +16,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Recruitment</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">3 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
     <section>
 
@@ -57,16 +56,12 @@
         <h5>Captain Selwyn Jepson, SOE recruiting officer</h5>
     </div>
 
-    <div class="border-white"></div>
-    <div class="links-inline">
-        <a onclick="window.history.go(-1); return false;" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
-        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/" class="btn-back">
-            <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-        </a>
-    </div>
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
+
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

@@ -22,10 +22,9 @@
 
     <div class="fixed-nav">
         <p class="pg-title">Mission</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">5 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-05-mission/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -41,14 +40,6 @@
 
         <div class="slantz">
             <div class="img"></div>
-        </div>
-
-
-        <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
         </div>
 
 

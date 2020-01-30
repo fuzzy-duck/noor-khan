@@ -248,8 +248,45 @@ nav {
   }
 }
 
-// Fixed Nav 
+// Global Fixed Nav 
 .fixed-nav {
+  background: $lightBlue;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 15;
+  @media screen and (device-aspect-ratio: 40/71) {
+      height: 60px;
+  }
+  p {
+      font-family: 'Alata-Regular' !important;
+      font-size: 12px;
+  }
+  .pg-title {
+      grid-column: 1;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+      padding: 0px $padding;
+  }
+  .pg-alt-bk {
+      grid-column: 2;
+      height: 100%;
+      width: 100%;
+      background: $bodyBg;
+      .img {
+        background: url(assets/icon/Next.svg) no-repeat center center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+      }
+  }
+}
+
+// Chapters Fixed Nav 
+.chap-fixed-nav {
   background: $lightBlue;
   width: 100%;
   height: 75px;
@@ -258,6 +295,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px $padding;
   z-index: 15;
+  bottom: 0;
   @media screen and (device-aspect-ratio: 40/71) {
       height: 60px;
   }

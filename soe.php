@@ -16,10 +16,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Recruitment</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">3 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
     <section>
     <div class="border"></div>
@@ -49,16 +48,13 @@
     to sign the Official Secrets Act – vowing to tell no one about the nature of their work.</p>
     <p>From early 1942 the government allowed the SOE to use female agents, arguing that they would be
     less conspicuous than men when performing daily errands undercover, like shopping.</p>
-    <div class="border-white"></div>
-    <div class="links">
-        <a onclick="window.history.go(-1); return false;" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
-        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/noor-signs-up/" class="btn-back">
-            <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-        </a>
-    </div>
+
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-03-recruitment/noor-signs-up/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
+
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

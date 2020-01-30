@@ -39,7 +39,7 @@
         </nav>
         <div class="lower-nav">
             <ul>
-                <li><a href="<?php echo home_url(); ?>/runnymede">Runnymede</a></li>
+                <li><a href="<?php echo home_url(); ?>/the-air-forces-memorial">Runnymede</a></li>
                 <li><a href="<?php echo home_url(); ?>/about">About the project</a></li>
                 <li><a href="<?php echo home_url(); ?>/credits">Credits</a></li>
             </ul>

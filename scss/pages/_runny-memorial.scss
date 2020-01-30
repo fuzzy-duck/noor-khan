@@ -1,7 +1,6 @@
-#operating {
-    padding-bottom: 100px;
+#runny-mem {
     .header-bg {
-        background: url(assets/img/paris.png) no-repeat top;
+        background: url(assets/img/runnymede-memorial.png) no-repeat top;
         background-size: cover;
         height: 60vh;
         margin-top: -95px;
@@ -70,5 +69,41 @@
                 bottom: 65px !important;
             }
         }
+    }
+
+    .close {
+        width: 100%;
+        position: unset;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+    .inner {
+        margin-top: 50px;
+    }
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /*16:9*/
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden;
+    }
+    
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .border {
+        margin: 50px auto;
+    }
+
+    .inner h5 {
+        text-align: center;
     }
 }

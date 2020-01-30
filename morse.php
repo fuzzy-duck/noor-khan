@@ -16,11 +16,10 @@
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Noor Inayat Khan</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">1 / 6</p>
+        <p class="pg-title">Mission</p>
+        <a href="<?php echo home_url(); ?>/chapter-05-mission/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -80,16 +79,17 @@
             }
         }
         </script>
-
-
-    <div class="border-white"></div>
-            <div class="links-inline">
-                <a onclick="window.history.go(-1); return false;" class="btn-back">
-                    <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-                </a>
-            </div>
         </div>
+
     </section>
+
+    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+        <div class="content">
+            <div class="img"></div>
+            <div class="text">Return to Map</div>
+        </div>
+    </a>
+
 </main>
 
 <?php get_footer(); ?>

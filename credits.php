@@ -55,17 +55,13 @@
             <?php endif; ?>
         </div>
 
-        <div class="border-white"></div>
-
-    </div>
-
-    <div class="links-inline">
-        <a onclick="window.history.go(-1); return false;" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
     </div>
 
 </main>
+
+    <a onclick="window.history.go(-1); return false;" class="btn-back">
+        <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
+    </a>
 
 <div id="turn"><?php include ("turn.php"); ?></div>
 

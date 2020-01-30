@@ -127,7 +127,7 @@ a.btn-back {
   button {
       display: flex;
       margin: 30px auto;
-      width: 40%;
+      width: 55%;
       span {
           height: 100%;
           width: 100%;
@@ -168,6 +168,32 @@ a.btn-back {
             width: 25px;
             height: 25px;
           }
+      }
+  }
+}
+
+.nav-banner {
+  height: 60px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: $yellow;
+  margin: 0px 0px 50px;
+  .content {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      justify-content: center;
+      align-items: center;
+      .img {
+          background: url(assets/icon/nav-map.svg) no-repeat center center;
+          background-size: contain;
+          height: 30px;
+          width: 33px;
+      }
+      .text {
+          color: $bodyBg;
+          font-family: 'Alata-Regular';
       }
   }
 }

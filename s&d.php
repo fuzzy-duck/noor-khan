@@ -17,10 +17,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Training</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">4 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-04-training/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -66,17 +65,11 @@
     bridge that his followers could cross to flee from danger: “Every time you encode a message think of
     the letters in it as monkeys trying to cross a bridge between Paris and London.”</p>
 
-    <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a href="<?php echo home_url(); ?>/chapter-04-training/creating-noors-cover/" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
-        </div>
-
     </section>
+
+    <a href="<?php echo home_url(); ?>/chapter-04-training/creating-noors-cover/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
 
 </main>
 

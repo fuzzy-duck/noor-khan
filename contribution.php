@@ -17,10 +17,9 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Noor Inayat Khan</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">1 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
 
     <section>
@@ -28,7 +27,8 @@
     <div class="border"></div>
 
     <div class="head">
-        <h2 class="quote" data-aos="flip-down" data-aos-delay="250" data-aos-delay="150">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</h2>
+        <h2 class="quote" data-aos="flip-down" data-aos-delay="250" data-aos-delay="150">“They fought from Britain and for Britain, but in doing so they were fighting for their own countries and for the cause of world freedom.”</h2>
+        <h5>1953 Memorial Register Introduction</h5>
     </div>
 
     <div class="carousel" data-aos="slide-up" data-aos-delay="300">
@@ -41,8 +41,6 @@
 
     <h2>Commonwealth Contribution</h2>
     <div class="border-dup"></div>
-
-    <p data-aos="fade-in" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
     
     <div class="tiles-grid">
         <div class="tile">
@@ -51,14 +49,11 @@
             <div class="info">
             <div class="text" data-aos="slide-left" data-aos-offset="100">
                     <div class="col">
-                        <p>15,308</p>
-                        <p>26</p>
-                        <p>10</p>
+                        <p></p>
                     </div>
                     <div class="col">
-                        <p> Air Royal Air Force</p>
-                        <p> Of Newfoundland</p>
-                        <p> Women's Auxiliary Air Force</p>
+                        <p><span>15253</span></p>
+                        <p> United Kingdom</p>
                     </div>
                 </div>
             </div>
@@ -69,8 +64,8 @@
     <div class="tiles-grid">
         <div class="tile">
             <div class="text-02" data-aos="slide-right" data-aos-offset="50">
-                <p><span>3,072</span></p>
-                <p>Royal Canadian Air Force</p>
+                <p><span>3,031</span></p>
+                <p>Canadian</p>
             </div>
             <div class="img img-02" data-aos="slide-left" data-aos-offset="50"></div>
         </div>
@@ -80,8 +75,8 @@
         <div class="tile">
             <div class="img img-03" data-aos="slide-left" data-aos-offset="50"></div>
             <div class="text-03" data-aos="slide-right" data-aos-offset="50">
-                <p><span>1,403</span></p>
-                <p>Royal Australian Air Force</p>
+                <p><span>1,383</span></p>
+                <p>Australian</p>
             </div>
         </div>
     </div>
@@ -89,8 +84,8 @@
     <div class="tiles-grid">
         <div class="tile">
             <div class="text-04" data-aos="slide-right" data-aos-offset="50">
-                <p><span>583</span></p>
-                <p>Royal New Zealand Air Force</p>
+                <p><span>573</span></p>
+                <p>New Zeland</p>
             </div>
             <div class="img img-04" data-aos="slide-left" data-aos-offset="50"></div>
         </div>
@@ -100,8 +95,8 @@
         <div class="tile">
             <div class="img img-05" data-aos="slide-left" data-aos-offset="50"></div>
             <div class="text-05" data-aos="slide-right" data-aos-offset="50">
-                <p><span>16</span></p>
-                <p>South African Air Force</p>
+                <p><span>167</span></p>
+                <p>South African</p>
             </div>
         </div>
     </div>
@@ -110,11 +105,13 @@
         <div class="tile">
             <div class="text-06" data-aos="slide-right" data-aos-offset="50">
                 <p><span>7</span></p>
-                <p>Royal Indian Air Force</p>
+                <p>Indian</p>
             </div>
             <div class="img img-06" data-aos="slide-left" data-aos-offset="50"></div>
         </div>
     </div>
+    
+    <!--
 
     <div class="info">
         <div class="text">
@@ -133,7 +130,6 @@
         </div>
     </div>
 
-    <!-- 
     <div class="bars">
         <div class="bg">
             <div class="bar" style="width: 40%;"><p>Rank</p><span style="margin-left: 30px">000</span></div> 
@@ -147,7 +143,7 @@
         <div class="bg">
             <div class="bar" style="width: 18%;"><p><span>000</span></p></div>
         </div>
-    </div> -->
+    </div>
     <div class="bars">
         <div class="bar-chart primary" data-total="76" animated>
             <span class="bar-chart--inner" style="width:76%;"><span class="bar-chart--text">00</span> <span class="bar-chart--text">Rank</span></span>
@@ -164,7 +160,7 @@
         <div class="bar-chart tertiary" data-total="42" animated>
             <span class="bar-chart--inner" style="width:42%;"><span class="bar-chart--text">00</span> <span class="bar-chart--text">Rank</span></span>
         </div>
-    </div>
+    </div> -->
 
     <script>
     
@@ -199,6 +195,7 @@
     app.init();
 
     </script>
+<!--
 
     <canvas id="myChart" width="300" height="300"></canvas>
 
@@ -243,18 +240,81 @@
         },
     });
 
-    </script>
+    </script> -->
 
-    <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a href="<?php echo home_url(); ?>/video" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
-        </div>
+
     </section>
+
+    <div class="barz">
+        <h5>Number Died Commemorated Here</h5>
+
+        <div class="bar-section">
+            <div class="img"></div>
+        </div>
+
+        <h5 class="low">Total</h5>
+        <h2>20,264</h2>
+
+    </div>
+
+    <div class="tiles-grid foo">
+        <div class="tile">
+            <div class="img img-07" data-aos="slide-right" data-aos-offset="100"></div>
+            <div class="text-01">
+            <div class="info">
+            <div class="text" data-aos="slide-left" data-aos-offset="100">
+                    <div class="col">
+                        <span>
+                        <p>9</p>
+                        <p>5</p>
+                        </span>
+                    </div>
+                    <div class="col">
+                        <p>SOE Agents</p>
+                        <p>are women</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vert-bars">
+        <div class="grid">
+            <div class="col">
+                <p>Youngest</p>
+                <span>15</span>
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
+        <div class="btm">
+
+        </div>
+    </div>
+
+    <div class="info-btm">
+        <div class="text">
+            <div class="col" data-aos="slide-left" data-aos-offset="0">
+                <p>14</p>
+                <p>39</p>
+            </div>
+            <div class="col" data-aos="slide-right" data-aos-offset="0">
+                <p> Women named on Runnymede</p>
+                <p> Different Ranks</p>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+        <div class="content">
+            <div class="img"></div>
+            <div class="text">Return to Map</div>
+        </div>
+    </a>
+
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

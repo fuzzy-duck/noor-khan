@@ -24,14 +24,15 @@
 
     <section>
 
-    <div class="video-container">
-        <iframe id="myvideo" onclick="openFullscreen();" width="560" height="315" src="https://www.youtube.com/embed/Y7zyB7rsvHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-thumb">
+        <div class="img"><div class="ply-btn"> </div></div>
     </div>
+
 
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>The Brownies, Guides and Rangers from areas surrounding the Runnymede Memorial learned about Noor’s story, and discovered that many aspects of the life of this shy, spiritual artist and careful technician inspire them today. Find out what Noor’s story means to them.</p>
 
     </section>
 

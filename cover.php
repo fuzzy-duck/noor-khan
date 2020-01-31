@@ -41,7 +41,9 @@
     which were aged to look as if they had been worn for years. No detail went unnoticed: continental-
     style stitching was used and labels from original garments were sewn in to add authenticity.</p>
 
-    <p></p>
+    <p>As well as false papers, Noor would have been supplied with photographs of invented family and
+    friends, ticket stubs, receipts, a ration card and other personal items to lend weight to her cover
+    story. She was also given a money belt containing thousands of francs.</p>
 
     <div class="border"></div>
     <div class="head">
@@ -49,9 +51,16 @@
         <h5>Code sent out on BBC Radio's Messages Personells service in French indicating that Noor would soon be arriving, <br/>16 June 1943</h5>
     </div>
 
-    <p>As well as false papers, Noor would have been supplied with photographs of invented family and
-    friends, ticket stubs, receipts, a ration card and other personal items to lend weight to her cover
-    story. She was also given a money belt containing thousands of francs.</p>
+    <p>On the night of 16 June 1943 – a full moon – Noor was driven to an RAF airfield in Tangmere, Sussex, in a car nicknamed ‘the hearse’. Noor was described as quietly “serene”. She was given a silver bird brooch as a good luck token, and a Webley pistol for her handbag. She would be flown in a small Lysander aircraft to a field in the French countryside, and from there make her way to Paris.</p>
+
+    <div class="video-thumb">
+        <div class="img"><div class="ply-btn"> </div></div>
+    </div>
+
+    <h2>Life in the SOE</h2>
+    <div class="border-dup"></div>
+
+    <p>Members of the Guiding movement – Brownies, Guides and Rangers – from Maidenhead and surrounding areas learned about Noor’s story by doing as she did. They tried code making and cracking and learnt to send transmissions using a Morse key from the 1940s. Here’s what it taught them about Noor’s special technical skills.</p>
 
 
         </section>

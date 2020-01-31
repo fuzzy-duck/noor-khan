@@ -13,7 +13,7 @@
         .overlay {
             height: 25%;
             width: 100%;
-            background-image: linear-gradient(to bottom, #212044, rgba(33,32,68, 0.3));
+            background-image: linear-gradient(to bottom, #212044, rgba(33,32,68, 0.1));
         }
         .overlay-2 {
             height: 75%;
@@ -71,16 +71,6 @@
         }
     }
 
-    .close {
-        width: 100%;
-        position: unset;
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 20px;
-    }
-    .inner {
-        margin-top: 50px;
-    }
     .video-container {
         position: relative;
         padding-bottom: 56.25%; /*16:9*/

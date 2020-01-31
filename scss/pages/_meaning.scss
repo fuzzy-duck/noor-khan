@@ -20,5 +20,25 @@
             width: 100%;
             height: 100%;
         }
+
+        .video-thumb {
+            width: 100%;
+            height: 200px;
+            .img {
+                background: url(assets/img/guide-thumb-2.png) no-repeat center center;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .ply-btn {
+                    background: url(assets/icon/play.svg) no-repeat center center;
+                    background-size: contain;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
     }
 }

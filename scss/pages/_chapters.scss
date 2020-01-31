@@ -321,6 +321,14 @@
 
             &:nth-child(3) {
              height: 350px !important;
+             .img {
+                width: 110% !important;
+                margin-left: -5% !important;
+                background-size: contain !important;
+             }
+             button {
+                margin: -140px auto 30px !important;
+            }
             }
             .img {
                 width: 151% !important;
@@ -331,7 +339,7 @@
                 margin: -170px auto 30px !important;
             }
             button:nth-last-of-type() {
-                margin: -40px auto 30px !important;
+                margin: -20px auto 30px !important;
             }
         }
     }

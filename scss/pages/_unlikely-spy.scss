@@ -1,4 +1,5 @@
 #spy {
+    padding-bottom: 100px;
     section {
         padding: $bodyPadding;
         .carousel {
@@ -42,5 +43,6 @@
         @media (min-width: 768px) and (max-width: 1024px) {
             padding: $bodyPadding;
         }
+
     }
 }

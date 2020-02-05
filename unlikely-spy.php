@@ -26,13 +26,10 @@
 
     <div class="carousel">
         <div class="owl-carousel owl-theme">
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/holiday.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/holiday.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/holiday.png"></a></div></div>
+            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor</h5><p>Noor on holiday The Hague in her early 20s</p>" href="<?php bloginfo('template_directory');?>/assets/img/holiday.png"></a></div></div>
+            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor</h5><p>Noor on holiday The Hague in her early 20s</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-mother.jpg"></a></div></div>
         </div>
     </div>
-
-    <div class="lower">
 
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>

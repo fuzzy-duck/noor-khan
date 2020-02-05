@@ -26,9 +26,8 @@
     <div class="upper">
         <div class="carousel">
             <div class="owl-carousel owl-theme">
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-sitar.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-sitar.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-sitar.png"></a></div></div>
+                <div class="item"><div class="img-01"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor with her veena</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-sitar.png"></a></div></div>
+                <div class="item"><div class="img-02"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan children w instruments Family concert Paris home Fazal Manzil Suresnes</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-inst.jpg"></a></div></div>
             </div>
         </div>
     </div>
@@ -61,9 +60,8 @@
         <div class="lower">
             <div class="carousel">
                 <div class="owl-carousel owl-theme">
-                    <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
-                    <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
-                    <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
+                    <div class="item"><div class="img-01"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor (on left big bow) family group inc 2 uncles behind</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-famalam.png"></a></div></div>
+                    <div class="item"><div class="img-02"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>One of Noors illustrations</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-illus.jpg"></a></div></div>
                 </div>
             </div>
         </div>

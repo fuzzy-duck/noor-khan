@@ -36,16 +36,10 @@
     <h2>Noor signs up</h2>
     <div class="border-dup"></div>
 
-    <p>On 10 November 1942 Noor was invited to interview for the SOE due to her language skills,
-    especially her fluency in French. The recruiter described her as “sure and confident…I had not the
-    slightest doubt she could do it.” He felt she would be careful and patient – vital qualities in a
-    wireless operator. Three months later Noor was attached to the Air Ministry Unit for service under
-    Air Intelligence, and on 15 February 1943 she signed the Official Secrets Act.</p>
+    <p>Someone noted that noted that Noor’s fluent French could be useful to the Special Operations Executive. They desperately needed native speakers as agents. She was called for an interview with SOE in November 1942. The recruiter described her as “sure and confident… I had not the slightest doubt she could do it.” He felt she would be careful and patient – vital qualities in a wireless operator. She bravely accepted their offer to join. In February 1943 she signed the Official Secrets Act and began agent training.</p>
         
-    <p>A WAAF colleague of Noor’s later recalled how the young woman “disappeared. Just like that. No
-    word, no sign, no letter to explain a sudden posting. Just her blankets stacked neatly on the
-    bedspring.” She had entered the shadowy world of the SOE, and her ultimate fate would be
-    shrouded in mystery.</p>
+    <p>A WAAF colleague of Noor’s later recalled how the young woman “disappeared. Just like that. No word, no sign, no letter to explain a sudden posting. Just her blankets stacked neatly on the bedspring.” She had entered the shadowy world of the SOE, and her ultimate fate would be shrouded in mystery.</p>
+
 
     <div class="border"></div>
     

@@ -14,11 +14,15 @@
                 left: 50%;
             }
             button.owl-prev {
+                //background: url(assets/icon/arrow-left.svg) no-repeat center center;
+                //background-size: contain;
                 position: absolute !important;
                 left: 2px !important;
                 font-size: 60px;
             }
             button.owl-next {
+                //background: url(assets/icon/arrow-right.svg) no-repeat center center;
+                //background-size: contain;
                 position: absolute !important;
                 right: 2px !important;
                 font-size: 60px;

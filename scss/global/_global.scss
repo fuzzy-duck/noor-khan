@@ -74,9 +74,10 @@ header {
 a.btn-link {
     button {
         display: flex;
-        margin: 30px 0px;
-        width: 100%;
+        margin: 30px auto;
+        width: 80%;
         height: 100%;
+        letter-spacing: 0.2em;
         background: transparent;
         border: none;
         @media (min-width: 768px) and (max-width: 1024px) {
@@ -89,15 +90,15 @@ a.btn-link {
             background: $lightBlue;
             color: $white;
             //padding: 25px;
-            font-size: 10px;
-            font-weight: 600;
+            font-size: 12px;
+            font-weight: 500;
             font-family: 'Alata-Regular';
 
             height: 62px;
             justify-content: center;
             align-items: center;
             display: flex;
-            padding: 0px 20px;
+            padding: 0px 10px;
             p {
               font-size: 10px;
               font-family: 'Alata-Regular';
@@ -105,7 +106,7 @@ a.btn-link {
         }
         .icon-box {
             height: 62px;
-            width: 65%;
+            width: 66%;
             background: $yellow;
             position: relative;
 
@@ -137,20 +138,22 @@ a.btn-back {
   button {
       display: flex;
       margin: 30px auto;
-      width: 55%;
+      width: 50%;
       span {
           height: 100%;
           width: 100%;
+          font-family: 'Alata-Regular';
           text-transform: uppercase;
           background: $lightBlue;
           color: $white;
-          padding: 25px;
-          font-size: 10px;
-          font-weight: 600;
+          padding: 23px;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 0.2em;
       }
       .icon-box {
           height: 62px;
-          width: 100%;
+          width: 75%;
           background: $yellow;
           position: relative;
 
@@ -258,6 +261,13 @@ a.btn-back {
   }
 }
 
+.zoom {
+  background: url(assets/icon/zoom.svg) no-repeat center center;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
 // Fancybox 
 .fancybox-is-open .fancybox-bg {
   opacity: .99 !important;
@@ -333,4 +343,21 @@ button.fancybox-button.fancybox-button--arrow_right {
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   main{ display:block; }
+}
+
+
+// Temp header styles
+#chapters .header .header-img {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+#chapters .header .title {
+  text-align: center;
+}
+
+a.btn-back button {
+  background: transparent;
+  border: none;
 }

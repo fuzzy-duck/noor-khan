@@ -17,23 +17,40 @@
         <div class="border"></div>
         <nav>
             <ul>
-            <li><span>Chapter 1</span>
-                <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan">Who was Noor Inayat Khan?</a>
+            <li>
+                <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan">
+                <span>Chapter 1</span><br>
+                Who was Noor Inayat Khan?
+                </a>
             </li>
-            <li><span>Chapter 2</span>
-                <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/">Noor before the war</a>
+            <li>
+                <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/">
+                <span>Chapter 2</span><br>
+                Noor before the war</a>
+                </a>
             </li>
-            <li><span>Chapter 3</span>
-                <a href="<?php echo home_url(); ?>/chapter-03-recruitment">Recruitment</a>
+            <li><a href="<?php echo home_url(); ?>/chapter-03-recruitment">
+                <span>Chapter 3</span><br>
+                Recruitment
+                </a>
             </li>
-            <li><span>Chapter 4</span>
-                <a href="<?php echo home_url(); ?>/chapter-04-training">Training</a>
+            <li>
+                <a href="<?php echo home_url(); ?>/chapter-04-training">
+                <span>Chapter 4</span><br>
+                Training
+                </a>
             </li>
-            <li><span>Chapter 5</span>
-                <a href="<?php echo home_url(); ?>/chapter-05-mission">Mission</a>
+            <li>
+                <a href="<?php echo home_url(); ?>/chapter-05-mission">    
+                <span>Chapter 5</span><br>
+                Mission
+                </a>
             </li>
-            <li><span>Chapter 6</span>
-                <a href="<?php echo home_url(); ?>/chapter-06-death-legacy">Death and Legacy</a>
+            <li>
+                <a href="<?php echo home_url(); ?>/chapter-06-death-legacy">
+                <span>Chapter 6</span><br>
+                Death and Legacy
+                </a>
             </li>
             </ul>
         </nav>

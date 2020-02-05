@@ -33,28 +33,15 @@
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>
 
-    <p>Noor never made it home. Just as she was preparing to leave Paris she was betrayed by a woman
-    who is thought to have been jealous over Noor’s close relationship with a fellow agent.</p>
-    
-    <p>On 13 October Noor returned to her flat and found a Gestapo officer waiting for her. After putting
-    up a fierce physical and verbal fight, she was eventually overpowered and arrested.</p>
+    <p>Noor never made it home. Just as she was preparing to leave Paris, she was betrayed. On 13 October Noor returned to her flat and found an officer waiting for her. After putting up a fierce physical and verbal fight, she was overpowered and arrested.</p>
 
     <h2>Imprisonment at the Gestapo headquarters in Paris</h2>
 
-    <p>On arriving at the Gestapo HQ Noor angrily refused to answer any questions, and even tried to
-    escape by climbing out of a bathroom window. However, her silence didn’t prevent the enemy from
-    obtaining useful information: she had kept a log of her messages, which were seized from her
-    apartment. Using her notebook and her radio, the Germans began transmitting messages to London
-    as though from Noor. It was not until March 1944 that SOE realised she had been captured, after a
-    group of elite agents were arrested at a meeting arranged through Noor’s radio.</p>
-
-    <p>While imprisoned in Paris Noor again tried to escape. She communicated with two other prisoners
-    by tapping Morse messages on her cell wall; one night the three of them managed to loosen the bars
-    on their skylight windows and climbed out. But just as they raced across the roof an air-raid siren
-    sounded and guards found they were missing from their cells. The trio made it out onto the street
-    but a cordon had been set up and they were recaptured. They returned to the prison after being
-    beaten, but she refused to sign an agreement promising not to escape again. She defiantly told the
-    Gestapo officer that it was her duty to make escape attempts.</p>
+    <p>Noor angrily refused to answer any questions and even tried to escape by climbing out of a bathroom window. </p>
+        
+    <p>Using her radio and a log of her sent messages they’d found, the Germans began transmitting messages to London pretending to be Noor. It took SOE months to realise they were being played via several captured agents’ sets, not just Noor’s.</p>
+    
+    <p>While imprisoned in Paris, Noor again tried to escape. She communicated with two other prisoners by tapping Morse messages on her cell wall; one night, the three of them managed to loosen the bars on their skylight windows and climb out. But just as they raced across the roof an air-raid siren sounded and guards found they were missing from their cells. The trio made it to the street but a cordon had been set up and they were caught and beaten.</p>
 
     <div class="lower">
         <div class="carousel">
@@ -68,13 +55,7 @@
 
     <h2>Solitary confinement in Germany</h2>
 
-    <p>On 26 November 1943 Noor was sent to Pforzheim Prison in Germany. Classed as a ‘dangerous’
-    prisoner – perhaps because of her escape attempts – she was kept in constant isolation, shackled by
-    her hands and feet. Despite being starved and weeping to herself each night, she was sustained by
-    her Sufi philosophy and even meditated for some of the day. She was also able to communicate
-    with fellow prisoners through messages scratched into food bowls, letting them know her name and
-    address. She was heartened when they told her the Allies had invaded France in June 1944, marking
-    the beginning of the end of the war.</p>
+    <p>The next day, 26 November 1943, Noor was sent to Pforzheim prison in Germany. Classed as a ‘dangerous’ prisoner – perhaps because of her escape attempts – she was kept in constant isolation, shackled by her hands and feet. Despite being starved, she meditated and her Sufi philosophy kept her going.</p>
 
     </section>
 

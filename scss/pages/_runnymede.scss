@@ -25,7 +25,7 @@
             background: url(assets/img/runny-map.svg) no-repeat center center;
             background-size: contain;
             width: 110%;
-            height: 50vh;
+            height: 40vh;
             margin-left: -20px;
             .map-grid {
                 width: 100%;
@@ -116,10 +116,16 @@
         }
     }
     .upper {
-        padding: 150px calc(2 * 1em) 0px;  
+        padding: 75px calc(2 * 1em) 0px;  
         @media (min-width: 768px) {
             padding: $tabletPadding;
         }
+
+        .head {
+            margin: 25px 0px;
+        }
+
+
         h1 {
             color: $yellow;
             text-align: center;
@@ -129,6 +135,7 @@
         h5 {
             color: $yellow;
             text-align: center;
+            line-height: 0.4em;
         }
         .dl {
             margin: 50px 0px;

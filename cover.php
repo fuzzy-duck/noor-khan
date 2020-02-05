@@ -32,18 +32,11 @@
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>
 
-    <p>Despite it being the most dangerous place in France, Noor requested she be sent to Paris for her
-    mission because she had lived there before the war. She was given a new name – Jeanne-Marie
-    Renier – and a cover story as a children’s nurse. Her codename was Madeleine, which would be
-    used in all radio transmissions.</p>
+    <p>Despite it being the most dangerous place in France, Noor requested she be sent to Paris for her mission because she knew it so well. She was given a new name – Jeanne-Marie Renier – and a cover story as a children’s nurse. Her codename was Madeleine, which would be used in all radio transmissions.</p>
 
-    <p>Like other agents, her clothes were faithful copies of those worn by refugees from Occupied Europe,
-    which were aged to look as if they had been worn for years. No detail went unnoticed: continental-
-    style stitching was used and labels from original garments were sewn in to add authenticity.</p>
+    <p>Like other agents, her clothes were faithful copies of those worn by refugees from Occupied Europe, which were aged to look as if they had been worn for years. No detail went unnoticed: continental-style stitching was used and labels from original French clothes were sewn in.</p>
 
-    <p>As well as false papers, Noor would have been supplied with photographs of invented family and
-    friends, ticket stubs, receipts, a ration card and other personal items to lend weight to her cover
-    story. She was also given a money belt containing thousands of francs.</p>
+    <p>As well as false papers, Noor was supplied with photographs of invented family and friends, ticket stubs, receipts, a ration card and other personal items to make her cover story believable. She was also given a money belt hiding thousands of francs.</p>
 
     <div class="border"></div>
     <div class="head">

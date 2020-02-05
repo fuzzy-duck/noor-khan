@@ -24,7 +24,7 @@
     <div class="border"></div>
     <div class="head">
     <h2 class="quote">"Set Europe<br/>ablaze!"</h2>
-    <h5>Prime Minister Winston Churchill</h5>
+    <h5>Prime Minister Winston Churchill to the SOE</h5>
     </div>
     <div class="tile">
         <div class="img"></div>
@@ -39,6 +39,7 @@
     Czechoslovakia, Yugoslavia, Greece, Italy and Southeast Asia, among others. France was the largest
     section, and by 1944 over 400 men and women had been sent there. Agents arrived by plane, boat
     and even submarine; many parachuted in under the cover of darkness.</p>
+    <h5>The SOE established branches across the world.</h5>
     <div class="inner-tile">
         <div class="img"></div>
     </div>

@@ -6,23 +6,23 @@
         .lower {
             .carousel .owl-item .item .img {
                 &:nth-child(1) {
-                    background: url(assets/img/gates.png) no-repeat center center;
+                    background: url(assets/img/placeholder.png) no-repeat center center;
                     background-size: contain;
                 }
                 &:nth-child(2) {
-                    background: url(assets/img/gates.png) no-repeat center center;
+                    background: url(assets/img/placeholder.png) no-repeat center center;
                     background-size: contain;
                 }
                 &:nth-child(3) {
-                    background: url(assets/img/gates.png) no-repeat center center;
+                    background: url(assets/img/placeholder.png) no-repeat center center;
                     background-size: contain;
                 }
             }
             .owl-dots {
-                bottom: 7px;
+                bottom: 66px;
             }
             .zoom {
-                bottom: 0px !important;
+                bottom: 62px !important;
             }
         }
 

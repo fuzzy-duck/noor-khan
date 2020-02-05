@@ -155,6 +155,15 @@
             <h2 class="quote">“She combined strength with sweetness in her character”</h2>
             <h5>Historian MRD Foot</h5>
         </div>
+
+        <div class="upper">
+        <div class="carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><div class="img img-01"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan with baby Noor 1914 Moscow </h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/baby-khan.png"></a></div></div>
+                <div class="item"><div class="img img-02"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor and mother</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-mother.jpg"></a></div></div>
+            </div>
+        </div>
+    </div>
     
     </section>
 

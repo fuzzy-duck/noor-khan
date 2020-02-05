@@ -16,13 +16,27 @@ $img = get_field('bg_img');
 <main id="chapters">
     <div class="header">
     <div class="nav"><?php include ("nav.php"); ?></div>
+
+    <video class="header-img" autoplay loop muted playsinline>
+    <source src='<?php the_field('video'); ?>'>
+    </video>
+
+    <!--
         <div class="header-img" style="background: url(<?php echo $img['url']; ?>) no-repeat center center;">
             <div class="title animated fadeIn">
                 <h5>Chapter <?php the_field('chapter_number'); ?></h5>
                 <h3><?php the_field('title'); ?></h3>
             </div>
         </div>
+
+    -->
+
+    <div class="title animated fadeIn">
+            <h5>Chapter <?php the_field('chapter_number'); ?></h5>
+            <h3><?php the_field('title'); ?></h3>
+        </div>
     </div>
+    
     <div class="scroll">
         <p>scroll</p>
         <div class="line"></div>

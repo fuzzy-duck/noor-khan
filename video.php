@@ -10,9 +10,10 @@
 <main id="video">
     <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan/" class="close"><span></span></a>
     <div class="inner">
-        <div class="video-container">
-            <iframe id="myvideo" onclick="openFullscreen();" width="560" height="315" src="https://www.youtube.com/embed/Y7zyB7rsvHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+
+        <video class="video-container" autoplay loop muted playsinline>
+            <source src='<?php the_field('video'); ?>'>
+        </video>
 
         <script>
             // JS Full screen onClick control

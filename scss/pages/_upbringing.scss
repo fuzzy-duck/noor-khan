@@ -4,9 +4,9 @@
     section {
         padding: $bodyPadding;
         .map {
-            height: 400px;
+            height: 382px;
             width: 180%;
-            margin: 20px 0px;
+            //margin: 20px 0px;
             @media screen and (device-aspect-ratio: 40/71) {
                 height: 285px;
             }
@@ -107,7 +107,6 @@
                     background-color: $lightBlue;
                     margin: 10vh auto; 
                     padding: 20px;
-                    border: 3px solid $white;
                     width: 90%;
 
                     transition: 0.8s;
@@ -172,7 +171,31 @@
         }
         .head {
             padding: $padding;
+            margin: unset;
+        }
+        .carousel {
+            height: 300px;
+            .item {
+                height: 300px;
+            }
         }
 
+        .img-01 {
+            background: url(assets/img/baby-khan.png) no-repeat center center;
+            background-size: cover;
+        }
+        .img-02 {
+            background: url(assets/img/noor-mother.jpg) no-repeat;
+            background-size: cover;
+        }
+        /*
+        .owl-dots {
+            bottom: 72px;
+        }
+
+        .zoom {
+            bottom: 70px;
+        }
+        */
     }
 }

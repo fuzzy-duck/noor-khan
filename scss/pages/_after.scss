@@ -1,5 +1,40 @@
 #after {
     section {
         padding: 0px $bodyPadding 100px;
+        .carousel .owl-item .item .img {
+            &:nth-child(1) {
+                background: url(assets/img/george_cross.png) no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(2) {
+                background: url(assets/img/george_cross.png) no-repeat center center;
+                background-size: contain;
+            }
+            &:nth-child(3) {
+                background: url(assets/img/george_cross.png) no-repeat center center;
+                background-size: contain;
+            }
+        }
+        .underlay-thumb {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            z-index: 2;
+            .img {
+                background: url(assets/img/george_cross_2.png) no-repeat center center;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                bottom: 155px;
+            }
+        }
+
+        .lower {
+            margin-top: -175px;
+        }
     }
 }

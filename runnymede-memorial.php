@@ -10,8 +10,8 @@
 <main id="runny-mem">
     <header>
         <a href="<?php echo home_url(); ?>/home" class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </a>
         <?php include ("nav.php"); ?>
     </header>
@@ -43,9 +43,9 @@
     <p>Richly decorated with carved, sculpted, painted and etched symbols of flight and the flying services, it’s a special place to remember those who died so we could be free.</p>
 
     <div class="inner">
-        <div class="video-container">
-            <iframe id="myvideo" onclick="openFullscreen();" width="560" height="315" src="https://www.youtube.com/embed/Y7zyB7rsvHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <video class="video-container" autoplay loop muted playsinline controls>
+            <source src='http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/video/Runnymede%20Memorial%20v1.0.mp4'>
+        </video>
 
         <script>
             // JS Full screen onClick control

@@ -9,13 +9,13 @@
 <main id="sign-up">
     <header>
         <a href="<?php echo home_url(); ?>/home" class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </a>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Recruitment</p>
+        <p class="pg-title">Chapter 3: <br>Recruitment</p>
         <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
             <div class="img"></div>
         </a>
@@ -24,9 +24,7 @@
 
     <div class="carousel">
         <div class="owl-carousel owl-theme">
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/uniform-noor.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/uniform-noor.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/uniform-noor.png"></a></div></div>
+            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/uniform-noor.png"></a></div></div>
         </div>
     </div>
 

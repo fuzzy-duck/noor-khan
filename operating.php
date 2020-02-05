@@ -10,8 +10,8 @@
 <main id="operating">
     <header>
         <a href="<?php echo home_url(); ?>/home" class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </a>
         <?php include ("nav.php"); ?>
     </header>
@@ -19,13 +19,13 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/runnymede-memorial.png" ></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Paris street scene, Bundesarchiv Bild</h5><p>Langhaus 1941</p>" href="<?php bloginfo('template_directory');?>/assets/img/runnymede-memorial.png" ></a>
             </div>
         </div>
     </div>
 
     <div class="fixed-nav">
-        <p class="pg-title">Mission</p>
+        <p class="pg-title">Chapter 5: <br>Mission</p>
         <a href="<?php echo home_url(); ?>/chapter-05-mission/" class="pg-alt-bk">
             <div class="img"></div>
         </a>
@@ -43,9 +43,7 @@
     <div class="lower">
         <div class="carousel">
             <div class="owl-carousel owl-theme">
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/noor-famalam.png"></a></div></div>
+                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>SOE radio box</h5><p>Crypto Museum</p>" href="<?php bloginfo('template_directory');?>/assets/img/radio-box.png"></a></div></div>
             </div>
         </div>
     </div>

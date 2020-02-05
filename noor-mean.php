@@ -10,13 +10,13 @@
 <main id="meaning">
     <header>
         <a href="<?php echo home_url(); ?>/home" class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </a>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Death & legacy</p>
+        <p class="pg-title">Chapter 6:<br>Death & legacy</p>
         <a href="<?php echo home_url(); ?>/chapter-06-death-legacy/" class="pg-alt-bk">
             <div class="img"></div>
         </a>
@@ -24,9 +24,9 @@
 
     <section>
 
-    <div class="video-thumb">
-        <div class="img"><div class="ply-btn"> </div></div>
-    </div>
+    <video class="video-container" autoplay loop muted playsinline controls>
+        <source type='video/mp4' src='http://ducknest.co.uk//noor-khan/wp-content/uploads/2020/video/Noor%20-%20Modern%20Role%20Model%20v1.0.mp4'>
+    </video>
 
 
     <h2><?php the_title() ?></h2>

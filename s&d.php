@@ -10,13 +10,13 @@
 <main id="sd">
     <header>
         <div class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </div>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Training</p>
+        <p class="pg-title">Chapter 4: <br>Training</p>
         <a href="<?php echo home_url(); ?>/chapter-04-training/" class="pg-alt-bk">
             <div class="img"></div>
         </a>

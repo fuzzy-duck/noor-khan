@@ -2,8 +2,8 @@
     <aside>
         <div class="nav-top">
             <a href="<?php echo home_url(); ?>" class="title">
-                <h3>Noor Inayat Khan</h3>
-                <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+                <h3>Noor Inayat-Khan</h3>
+                <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
             </a>
             <div class="outer-close toggle-overlay">
                 <a class="close"><span></span></a>
@@ -20,7 +20,7 @@
             <li>
                 <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan">
                 <span>Chapter 1</span><br>
-                Who was Noor Inayat Khan?
+                Who was Noor Inayat-Khan?
                 </a>
             </li>
             <li>
@@ -56,7 +56,7 @@
         </nav>
         <div class="lower-nav">
             <ul>
-                <li><a href="<?php echo home_url(); ?>/the-air-forces-memorial">Runnymede</a></li>
+                <li><a href="<?php echo home_url(); ?>/the-air-forces-memorial">Runnymede Memorial</a></li>
                 <li><a href="<?php echo home_url(); ?>/about">About the project</a></li>
                 <li><a href="<?php echo home_url(); ?>/credits">Credits</a></li>
             </ul>

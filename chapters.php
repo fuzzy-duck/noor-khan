@@ -38,7 +38,7 @@ $img = get_field('bg_img');
     </div>
     
     <div class="scroll">
-        <p>scroll</p>
+        <p>scroll down</p>
         <div class="line"></div>
     </div>
     <div class="chap-fixed-nav animated slideInUp">

@@ -9,13 +9,13 @@
 <main id="soe">
     <header>
         <a href="<?php echo home_url(); ?>/home" class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </a>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Recruitment</p>
+        <p class="pg-title">Chapter 3: Recruitment</p>
         <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
             <div class="img"></div>
         </a>

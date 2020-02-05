@@ -10,13 +10,13 @@
 <main id="cover">
     <header>
         <div class="title">
-            <h3>Noor Inayat Khan</h3>
-            <h5><span>A</span> Women <span>of</span> Conspicuous Courage</h5>
+            <h3>Noor Inayat-Khan</h3>
+            <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
         </div>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">
-        <p class="pg-title">Training</p>
+        <p class="pg-title">Chapter 4: <br>Training</p>
         <a href="<?php echo home_url(); ?>/chapter-04-training/" class="pg-alt-bk">
             <div class="img"></div>
         </a>
@@ -46,9 +46,15 @@
 
     <p>On the night of 16 June 1943 – a full moon – Noor was driven to an RAF airfield in Tangmere, Sussex, in a car nicknamed ‘the hearse’. Noor was described as quietly “serene”. She was given a silver bird brooch as a good luck token, and a Webley pistol for her handbag. She would be flown in a small Lysander aircraft to a field in the French countryside, and from there make her way to Paris.</p>
 
+    <!-- 
     <div class="video-thumb">
         <div class="img"><div class="ply-btn"> </div></div>
     </div>
+    -->
+
+    <video class="video-container" autoplay loop muted playsinline controls>
+        <source src='http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/video/Noor%20-%20Life%20in%20SEO%20v1.0.mp4'>
+    </video>
 
     <h2>Life in the SOE</h2>
     <div class="border-dup"></div>

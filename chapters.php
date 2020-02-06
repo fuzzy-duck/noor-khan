@@ -36,11 +36,23 @@ $img = get_field('bg_img');
             <h3><?php the_field('title'); ?></h3>
         </div>
     </div>
-    
     <div class="scroll">
-        <p>scroll down</p>
+        <p class="animated bounce">scroll down</p>
         <div class="line"></div>
     </div>
+
+    <script>
+
+    var myElement = $('.scroll');
+        $(window).on('scroll', function() {
+            var st = $(this).scrollTop();
+            myElement.css({
+                'opacity' : 1 - st/100
+            });
+        });
+
+    </script>
+
     <div class="chap-fixed-nav animated slideInUp">
         <p class="pg-title"><?php the_field('pg_title'); ?></p>
         <div class="pg-nav">

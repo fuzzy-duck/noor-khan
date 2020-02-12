@@ -16,16 +16,15 @@
     </header>
     <div class="fixed-nav">
         <p class="pg-title">Chapter 3: <br>Recruitment</p>
-        <div class="pg-nav">
-
-        </div>
-        <p class="pg-num">3 / 6</p>
+        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
+            <div class="img"></div>
+        </a>
     </div>
     <section>
 
-    <div class="head">
-    <h3>You would be...</h3>
-    <h2 class="quote"><?php the_field('character'); ?></h2>
+    <div class="recruited">
+        <div class="img animated zoomIn"></div>
+        <h1><?php the_title() ?></h1>
     </div>
 
     <div class="character-img">
@@ -36,12 +35,10 @@
 
     <p><?php the_field('description'); ?></p>
 
-    <div class="border-white"></div>
-    <div class="links-inline">
-        <a href="<?php echo home_url(); ?>/chapter-03-recruitment" class="btn-back">
-            <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-        </a>
-    </div>
+    <a href="<?php echo home_url(); ?>/chapter-03-recruitment/soe-2/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
+    
     </section>
 </main>
 

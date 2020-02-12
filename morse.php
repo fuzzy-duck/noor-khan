@@ -25,10 +25,10 @@
     <section>
 
     <div class="title">
-        <h5>S.O.E Assignment</h5>
-        <h2>WELL DONE!</h2>
-        <p>You cracked the code.<br>
-        Now have a go tapping out a message on the key.</p>
+        <div class="decoded">
+            <div class="img animated zoomIn"></div>
+        </div>
+        <p>Well done! You cracked the code. <br>Now have a go tapping out a message on the key.</p>
 
         <a class="cheat-sheet-link" data-modal="modalOne"><div class="img"></div></a>
     </div>

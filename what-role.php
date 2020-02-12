@@ -23,25 +23,22 @@
     </div>
 
     <section>
+        <div class="bg-container">
+        <h5 class="h5-title">Quiz</h5>
+        <h2>What role would you be?</h2>
+        <div class="border"></div>
 
-        <h2>What role would you be suited to?</h2>
-        <div class="border-dup"></div>
+        <p>The WAAF was created to do the jobs RAF men did prior to the war, so that those men could move into front-line and flying jobs. By 1943, the WAAF has over 180,000 members doing hundreds of different kinds of jobs.</p>
+        <h5>Take the quiz to find out what job you would have done...</h5>
+        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/qu1/"><div class="begin"></div></a>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/question-template/" class="alt-btn"><button>Start</button></a>
-
-        <div class="border-white"></div>
-        <div class="links-inline">
-            <a onclick="window.history.go(-1); return false;" class="btn-back">
-                <button><div class="icon-box"><div class="icon-bk"></div></div><span>Back</span></button>
-            </a>
-            <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/question-template/" class="btn-back">
-                <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-            </a>
         </div>
 
     </section>
+
+    <div class="lower">
+            <div class="img"></div>
+        </div>
 
     </main>
 

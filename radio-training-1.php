@@ -30,11 +30,11 @@
     <section>
 
         <div class="title">
-            <h5>S.O.E Assignment</h5>
+            <h5>Game</h5>
             <h2>Can you crack the code?</h2>
-            <p>The S.O.E. used Morse Code to transmit and receive messages in enemy territory. You’ve been sent a top secret briefing - can you work out what it says? 
+            <p>The SOE used Morse Code to transmit and receive messages in enemy territory. You’ve been sent a top secret briefing - can you work out what it says? 
                 
-            <p class="sub">Use the International Morse Code Alphabet to match the dots and dashes then guess a letter to see if it fits. Good luck!</p>
+            <p>Use the International Morse Code Alphabet to match the dots and dashes then guess a letter to see if it fits. Good luck!</p>
             <div class="bgn-btn"><a href="<?php echo home_url(); ?>/radio-training-2" class="begin"></a></div>
         </div>
 

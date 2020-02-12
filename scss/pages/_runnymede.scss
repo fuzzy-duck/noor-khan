@@ -116,7 +116,7 @@
         }
     }
     .upper {
-        padding: 75px calc(2 * 1em) 0px;  
+        padding: calc(2 * 1em);  
         @media (min-width: 768px) {
             padding: $tabletPadding;
         }

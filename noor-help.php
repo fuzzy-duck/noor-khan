@@ -43,11 +43,9 @@
 
     <p>To take part in the fight against Nazism, they would have to leave France: Noor, Vilayat, their younger sister and their mother escaped to the UK in June, as France fell.</p>
 
-    <div class="carousel">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan children older</h5><p>S. Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/khan-children.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan children older</h5><p>S. Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/khan-children.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan children older</h5><p>S. Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/khan-children.png"></a></div></div>
+    <div class="mid-img">
+        <div class="img">
+            <a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Inayat Khan children older</h5><p>S. Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/khan-children.png"></a>
         </div>
     </div>
 

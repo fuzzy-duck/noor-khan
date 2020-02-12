@@ -21,11 +21,6 @@
         </a>
     </div>
     <section>
-    <div class="border"></div>
-    <div class="head">
-    <h2 class="quote">"Set Europe<br/>ablaze!"</h2>
-    <h5>Prime Minister Winston Churchill to the SOE</h5>
-    </div>
     <div class="tile">
         <div class="img"></div>
     </div>
@@ -47,6 +42,13 @@
     would speak to the candidate and assess whether they were suitable for the SOE; the candidate
     would then have a week to consider whether they would be willing to join. If they agreed, they had
     to sign the Official Secrets Act – vowing to tell no one about the nature of their work.</p>
+
+    <div class="border"></div>
+    <div class="head">
+    <h2 class="quote">"Set Europe<br/>ablaze!"</h2>
+    <h5>Prime Minister Winston Churchill to the SOE</h5>
+    </div>
+
     <p>From early 1942 the government allowed the SOE to use female agents, arguing that they would be
     less conspicuous than men when performing daily errands undercover, like shopping.</p>
 

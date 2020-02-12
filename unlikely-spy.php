@@ -15,6 +15,14 @@
         </a>
         <?php include ("nav.php"); ?>
     </header>
+    <div class="header-bg">
+        <div class="overlay"></div>
+        <div class="overlay-2">
+            <div class="trans-bg">
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Paris street scene, Bundesarchiv Bild</h5><p>Langhaus 1941</p>" href="<?php bloginfo('template_directory');?>/assets/img/holiday.png" ></a>
+            </div>
+        </div>
+    </div>
     <div class="fixed-nav">
         <p class="pg-title">Chapter 1: <br>Noor Inayat-Khan</p>
         <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/" class="pg-alt-bk">
@@ -24,19 +32,11 @@
 
     <section>
 
-    <div class="carousel">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor</h5><p>Noor on holiday The Hague in her early 20s</p>" href="<?php bloginfo('template_directory');?>/assets/img/holiday.png"></a></div></div>
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor</h5><p>Noor on holiday The Hague in her early 20s</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-mother.jpg"></a></div></div>
-        </div>
-    </div>
 
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>
 
-    <p>Everyone named here on the walls of the Memorial has their own story.
-    Noor Inayat-Khan is no exception.</p>
-    <p>A young Muslim woman, she was many things: a dutiful daughter, a
+    <p>A young Muslim woman, Noor was many things: a dutiful daughter, a
     musician, an artist, a poet fluent in several languages and a published
     writer. Later, she was a vital part of the fight against Nazism, as a wireless
     telephonist in the Women’s Auxiliary Air Force.</p>

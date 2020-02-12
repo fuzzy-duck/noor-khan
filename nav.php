@@ -9,12 +9,12 @@
                 <a class="close"><span></span></a>
             </div>
         </div>
-        <a href="<?php echo home_url(); ?>/runnymede"class="nav-map">
+        
             <div class="content">
-                <div class="icon"></div><div class="text">Runnymede Map</div>
+                <a href="<?php echo home_url(); ?>/runnymede" class="nav-map"><div class="icon ic-1"></div><div class="text">Runnymede Map</div></a>
+                <a href="<?php echo home_url(); ?>/runnymede" class="nav-map"><div class="icon ic-2"></div><div class="text">Activities</div></a>
             </div>
-        </a>
-        <div class="border"></div>
+        <div class="nav-border"></div>
         <nav>
             <ul>
             <li>
@@ -56,9 +56,8 @@
         </nav>
         <div class="lower-nav">
             <ul>
-                <li><a href="<?php echo home_url(); ?>/the-air-forces-memorial">Runnymede Memorial</a></li>
-                <li><a href="<?php echo home_url(); ?>/about">About the project</a></li>
-                <li><a href="<?php echo home_url(); ?>/credits">Credits</a></li>
+                <li><a href="<?php echo home_url(); ?>/the-air-forces-memorial">Runnymede Memorial</a></li><br>
+                <li><a href="<?php echo home_url(); ?>/about">About the project</a></li> &#183; <li><a href="<?php echo home_url(); ?>/credits">Credits</a></li>
             </ul>
             <div class="social">
                 <div class="icon-outer"><a href="#" class="fbook"></a></div>

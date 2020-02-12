@@ -20,11 +20,11 @@
         </div>
         <p class="body-para"><?php the_field('para'); ?></p>
         <a href="<?php echo home_url(); ?>/intro"><div class="begin"></div></a>
-    </section>
-    <section class="logos">
-    <div class="logo-1"></div>
-    <div class="logo-2"></div>
-    <div class="logo-3"></div>
+        <div class="logos">
+            <div class="logo-1"></div>
+            <div class="logo-2"></div>
+            <div class="logo-3"></div>
+        </div>
     </section>
 </main>
 

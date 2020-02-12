@@ -94,8 +94,8 @@ $img = get_field('bg_img');
 
     <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
         <div class="content">
+            <div class="text">Next Chapter</div>
             <div class="img"></div>
-            <div class="text">Return to Map</div>
         </div>
     </a>
 

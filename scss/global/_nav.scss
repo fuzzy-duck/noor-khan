@@ -9,39 +9,55 @@ aside {
 	visibility: hidden;
 	transition: all .5s ease;
   z-index: 20;
-  .border {
-    margin: 0px auto !important;
+  .nav-border {
+    margin: 10px auto;
+    background: $yellow;
+    width: 40px;
+    height: 2px;
+    margin: auto;
   }
 }
 .open {
 	opacity: 1;
 	visibility: visible;
 }
+.content {
+  display: grid;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+
 a.nav-map {
   height: 60px;
   width: 100%;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
-  .content {
-    display: grid;
-    grid-template-columns: 50px 1fr;
+    div {
+      line-height: 2em;
+    }
     .icon {
-      background: url(assets/icon/map-yellow.svg) no-repeat center center;
-      background-size: contain;
       height: 30px;
       width: 33px;
     }
+    .ic-1 {
+      background: url(assets/icon/map-yellow.svg) no-repeat center center;
+      background-size: contain;
+    }
+    .ic-2 {
+      background: url(assets/icon/bookmark.svg) no-repeat center center;
+      background-size: contain;
+    }
     .text {
       color: $yellow;
-      padding-top: 5px;
+      text-indent: 12px;
       font-family: 'Alata-Regular';
     }
   }
 }
 nav {
 	text-align: center;
-	height: 50vh;
+	height: 45vh;
 	display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -89,21 +105,6 @@ nav {
 						transform: scaleX(1);
 					}
         }
-        /*
-
-				&:before {
-					content: "";
-					position: absolute;
-					width: 50%;
-					height: 2px;
-					bottom: -2px;
-					left: 25%;
-					background: white;
-					visibility: hidden;
-					transform: scaleX(0);
-					transition: all 0.3s ease-in-out 0s;
-        }
-        */
 			}
 		}
 	}
@@ -223,6 +224,8 @@ nav {
       font-size: 10px;
       text-transform: uppercase;
       font-family: 'Alata-Regular';
+      display: inline-block;
+      letter-spacing: 0.2em;
       @media (min-width: 768px) and (max-width: 1024px) {
         font-size: 18px;
       }
@@ -237,12 +240,13 @@ nav {
       }
 
       .icon-outer {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         display: inline-grid;
         background: $social;
         border-radius: 100%;
-        padding: 6px;
+        padding: 12px;
+        margin: 0px 5px;
 
         @media screen and (device-aspect-ratio: 40/71) {
           margin-top: -10px;

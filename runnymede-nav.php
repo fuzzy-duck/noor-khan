@@ -32,9 +32,11 @@
     </div>
 
     <section>
+        <div class="sub-nav">
+            <div class="btn"><div class="icon"></div>The Memorial</div>
+            <div class="btn"><div class="icon"></div>Symbol Hunt</div>
+        </div>
         <div class="upper">
-            <div class="border-dup"></div>
-            <h2><?php the_title() ?></h2>
 
             <div class="feature-img">
                 <?php 

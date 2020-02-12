@@ -18,7 +18,12 @@ $padding: calc(1 * 1em);
 $bodyPadding: calc(2 * 1em);  
 $tabletPadding: calc(4 * 1em);  
 
-* { box-sizing: border-box; }
+* { 
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+  outline: none !important;
+}
 
 body {
     background: $darkBlue;
@@ -74,40 +79,40 @@ header {
 a.btn-link {
     button {
         display: flex;
-        margin: 30px auto;
-        width: 80%;
+        margin: 50px auto 0px;
+        width: 100%;
         height: 100%;
         letter-spacing: 0.2em;
         background: transparent;
         border: none;
+        justify-content: center;
         @media (min-width: 768px) and (max-width: 1024px) {
           width: 50%;
         }
         span {
             height: 100%;
-            width: 140%;
+            width: 50%;
             text-transform: uppercase;
-            background: $lightBlue;
-            color: $white;
-            //padding: 25px;
-            font-size: 12px;
+            background: #5964A4;
+            color: #fff;
             font-weight: 500;
             font-family: 'Alata-Regular';
-
             height: 62px;
             justify-content: center;
             align-items: center;
+            text-align: left;
             display: flex;
-            padding: 0px 10px;
+            padding: 19px;
+            font-size: 14px;
             p {
-              font-size: 10px;
+              font-size: 18px;
               font-family: 'Alata-Regular';
             }
         }
         .icon-box {
             height: 62px;
-            width: 66%;
-            background: $yellow;
+            width: 22%;
+            background: #FDC500;
             position: relative;
 
             .icon {
@@ -195,11 +200,11 @@ a.btn-back {
   margin: 0px 0px 50px;
   .content {
       display: grid;
-      grid-template-columns: 50px 1fr;
+      grid-template-columns: 140px 50px;
       justify-content: center;
       align-items: center;
       .img {
-          background: url(assets/icon/nav-map.svg) no-repeat center center;
+          background: url(assets/icon/blue-arrow-right.svg) no-repeat center center;
           background-size: contain;
           height: 30px;
           width: 33px;
@@ -207,6 +212,36 @@ a.btn-back {
       .text {
           color: $bodyBg;
           font-family: 'Alata-Regular';
+          text-transform: uppercase;
+      }
+  }
+}
+
+.thumb {
+  width: 100%;
+  height: 200px;
+  margin: 50px 0px;
+  .img {
+      background: url(assets/img/placeholder.png) no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  .gradientz {
+      position: absolute;
+      bottom: 0;
+      height: 40px;
+      width: 100%;
+      background: rgba(33,32,68, 0.3);
+      .zoom {
+          position: absolute;
+          z-index: 9999;
+          bottom: 4px;
+          left: 8px;
       }
   }
 }

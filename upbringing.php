@@ -29,8 +29,8 @@
 
         <div class="map">
             <div class="img">
-                <div class="number button" data-modal="modalOne">1</div>
-                <div class="number button" data-modal="modalTwo">2</div>
+                <div class="number button" data-modal="modalOne">2</div>
+                <div class="number button" data-modal="modalTwo">1</div>
                 <div class="number button" data-modal="modalThree">3</div>
                 <div class="number button" data-modal="modalFour">4</div>
                 <div class="number button" data-modal="modalFive">5</div>
@@ -91,7 +91,7 @@
                         <a class="close"><span></span></a>
                         <h2>London</h2>
                         <div class="border-white"></div>
-                        <p>However, when the First World War broke out in July 1914 the family fled to London.
+                        <p>When the First World War broke out in July 1914 the family fled to London.
                         Here Noor’s father founded the Sufi Order of England, and as a musician also performed at concerts.
                         But there was some suspicion of his Indian background, and the family were pressured to leave.</p>
                         </div>
@@ -153,7 +153,7 @@
         <div class="head">
         <div class="border"></div>
             <h2 class="quote">“She combined strength with sweetness in her character”</h2>
-            <h5>Historian MRD Foot</h5>
+            <h5>M.R.D. Foot, Historian</h5>
         </div>
 
         <div class="upper">

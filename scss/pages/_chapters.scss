@@ -22,14 +22,13 @@
         }
         .title {
             text-align: center;
-            /*
-            width: 100%;
-            height: 125px;
             position: absolute;
             top: 0;
-            left: 5;
-            background-image: linear-gradient(to bottom, #212044, rgba(33,32,68, 0.3));
-            */
+            padding-top: 35px;
+            width: 100%;
+            background-image: linear-gradient(to bottom, rgba(33,32,68,0.8), rgba(33,32,68,0.0));
+            padding-bottom: 35px;
+
             h5 {
                 letter-spacing: unset;
                 text-transform: unset;
@@ -97,18 +96,18 @@
             }
             a.btn-link button {
                 display: flex;
-                width: 75%;
+                width: 90%;
                 height: 100px;
                 margin: -60px auto 30px;
                 span {
                     padding: 0px 20px;
                     font-family: 'Alata-Regular';
                     letter-spacing: .2em;
-                    font-weight: 600;
                     height: 60px;
                     display: flex;
                     text-align: left;
                     align-items: center;
+                    width: 80%;
                 }
                 .icon-box {
                     height: 60px;
@@ -133,11 +132,11 @@
         margin: 0px 0px 50px;
         .content {
             display: grid;
-            grid-template-columns: 50px 1fr;
+            grid-template-columns: 120px 50px;
             justify-content: center;
             align-items: center;
             .img {
-                background: url(assets/icon/nav-map.svg) no-repeat center center;
+                background: url(assets/icon/blue-arrow-right.svg) no-repeat center center;
                 background-size: contain;
                 height: 30px;
                 width: 33px;

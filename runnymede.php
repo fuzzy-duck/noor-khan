@@ -19,13 +19,13 @@
     </header>
     <div class="upper">
         <div class="border"></div>
-        <div class="head">
+        <div class="head" data-aos="fade-in" data-aos-duration="2000">
         <h2 class="quote">Per ardua ad astra (Through adversity to the stars)</h2>
         <h5>Motto of the RAF</h5>    
     </div>
-        <p>This memorial’s design honours those who served in the air services. Watch today’s aircraft taking off and landing at Heathrow Airport from the tall tower, which mimics an RAF control tower. Explorers will find windows etched with angels, poems, and traces of flight trails. Look up to see domes filled with stars, while compasses are inlaid in the floor. </p>
+        <p data-aos="fade-in" data-aos-duration="3000">This memorial’s design honours those who served in the air services. Watch today’s aircraft taking off and landing at Heathrow Airport from the tall tower, which mimics an RAF control tower. Explorers will find windows etched with angels, poems, and traces of flight trails. Look up to see domes filled with stars, while compasses are inlaid in the floor. </p>
         
-        <p>Names appear by year of death, then by unit, then rank, and finally in alphabetical order.</p>
+        <p data-aos="fade-in" data-aos-duration="3000">Names appear by year of death, then by unit, then rank, and finally in alphabetical order.</p>
     
         <!--
         <div class="dl">

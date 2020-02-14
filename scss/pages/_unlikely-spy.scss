@@ -11,6 +11,9 @@
         and (-webkit-device-pixel-ratio : 3) { 
             height: 50vh;
         }
+        @media (min-width: 768px) and (max-width: 1024px) {
+            margin-top: -116px;
+          }
         .overlay {
             height: 25%;
             width: 100%;
@@ -48,6 +51,9 @@
     section {
         padding: $bodyPadding;
         padding-bottom: 0px;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $noorTabPadding;
+          }
     }
     .fixed-nav {
         bottom: 0;

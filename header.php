@@ -27,7 +27,8 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/vendor/animate.min.css' ?>">
     <!-- AOS -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/vendor/aos.css' ?>">
-
+     <!-- Num Scroll -->
+     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery.numscroller-1.0.js' ?>"></script>
     <!-- Don't allow site to be landscape -->
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
 </head>

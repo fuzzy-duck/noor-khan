@@ -21,20 +21,20 @@
         <div class="overlay"></div>
         <div class="map">
             <div class="map-grid">
-                <a href="<?php echo home_url(); ?>/intro/entrance" class="number">1</a>
-                <a href="<?php echo home_url(); ?>/intro/raf-eagle" class="number">2</a>
-                <a href="<?php echo home_url(); ?>/intro/date-panels" class="number">3</a>
-                <a href="<?php echo home_url(); ?>/intro/windows-in-shrine" class="number">4</a>
-                <a href="<?php echo home_url(); ?>/intro/tower" class="number">5</a>
-                <a href="<?php echo home_url(); ?>/intro/justice-victory-courage" class="number">6</a>
+                <a href="<?php echo home_url(); ?>/intro/entrance" class="number" data-aos="zoom-in" data-aos-duration="50">1</a>
+                <a href="<?php echo home_url(); ?>/intro/raf-eagle" class="number" data-aos="zoom-in" data-aos-duration="200">2</a>
+                <a href="<?php echo home_url(); ?>/intro/date-panels" class="number" data-aos="zoom-in" data-aos-duration="450">3</a>
+                <a href="<?php echo home_url(); ?>/intro/windows-in-shrine" class="number" data-aos="zoom-in" data-aos-duration="600">4</a>
+                <a href="<?php echo home_url(); ?>/intro/tower" class="number" data-aos="zoom-in" data-aos-duration="850">5</a>
+                <a href="<?php echo home_url(); ?>/intro/justice-victory-courage" class="number" data-aos="zoom-in" data-aos-duration="1000">6</a>
             </div>
         </div>
     </div>
 
     <section>
         <div class="sub-nav">
-            <div class="btn"><div class="icon"></div>The Memorial</div>
-            <div class="btn"><div class="icon"></div>Symbol Hunt</div>
+            <a href="<?php echo home_url(); ?>/the-air-forces-memorial/" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon"></div>The Memorial</a>
+            <a href="<?php echo home_url(); ?>#" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon"></div>Symbol Hunt</a>
         </div>
         <div class="upper">
 

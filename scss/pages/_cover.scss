@@ -15,6 +15,9 @@
                 position: absolute;
                 right: -80px;
                 left: -30px;
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    background-size: contain;
+                  }
             }
         }
         .head {

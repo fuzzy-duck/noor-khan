@@ -15,6 +15,14 @@
         </a>
         <?php include ("nav.php"); ?>
     </header>
+    <div class="header-bg">
+        <div class="overlay"></div>
+        <div class="overlay-2">
+            <div class="trans-bg">
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Paris street scene, Bundesarchiv Bild</h5><p>Langhaus 1941</p>" href="<?php bloginfo('template_directory');?>/assets/img/george_cross.png" ></a>
+            </div>
+        </div>
+    </div>
     <div class="fixed-nav">
         <p class="pg-title">Chapter 6: <br>Death & legacy</p>
         <a href="<?php echo home_url(); ?>/chapter-06-death-legacy/" class="pg-alt-bk">
@@ -23,16 +31,6 @@
     </div>
 
     <section>
-
-    <div class="upper">
-        <div class="carousel">
-            <div class="owl-carousel owl-theme">
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/george_cross.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/george_cross.png"></a></div></div>
-                <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/george_cross.png"></a></div></div>
-            </div>
-        </div>
-    </div>
 
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>

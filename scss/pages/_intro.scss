@@ -11,6 +11,7 @@
             height: 50vh;
         }
         @media (min-width: 768px) {
+            background: url(assets/img/runnymede-memorial.png) no-repeat center center;
             background-size: cover;
           }
         .overlay {
@@ -20,6 +21,9 @@
             @media (min-width: 768px) {
                 height: 17%;
               }
+              @media screen and (device-aspect-ratio: 40/71) {
+                height: 26%;
+             }
         }
         .trans-bg {
             position: relative;
@@ -31,6 +35,10 @@
             display: grid;
             justify-content: center;
             align-items: center;
+            @media (min-width: 768px) and (max-width: 1024px) {
+                padding: $noorTabPadding;
+                height: 81%;
+            }
             h2 {
                 color: $yellow;
                 line-height: unset;
@@ -64,8 +72,9 @@
         margin-top: -10px;
         position: relative;
         @media (min-width: 768px) and (max-width: 1024px) {
-            padding: $tabletPadding;
+            padding: $noorTabPadding;
         }
+
         background: $bodyBg;
         p {
             font-family: 'NewsPlantinMTStd';

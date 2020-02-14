@@ -5,6 +5,9 @@
         background-size: cover;
         height: 60vh;
         margin-top: -95px;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            margin-top: -119px;
+          }
         @media only screen 
         and (device-width : 375px) 
         and (device-height : 812px) 
@@ -14,7 +17,7 @@
         .overlay {
             height: 25%;
             width: 100%;
-            background-image: linear-gradient(to bottom, rgba(33,32,68,0.4), rgba(33,32,68,0.1));
+            background-image: linear-gradient(to bottom, rgba(33,32,68,1), rgba(33,32,68,0.0));
         }
         .overlay-2 {
             height: 75%;
@@ -47,6 +50,9 @@
     }
     section {
         padding: $bodyPadding;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $noorTabPadding;
+          }
         .lower {
             padding-top: 20px;
             .carousel {
@@ -87,6 +93,11 @@
         }
         .links a.btn-back button {
             width: 50%;
+        }
+        a.btn-link button span {
+            @media screen and (device-aspect-ratio: 40/71) {
+                font-size: 12px;
+            }
         }
         .lower .carousel .owl-item .item .zoom {
            //bottom: 70px;

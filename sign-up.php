@@ -14,6 +14,14 @@
         </a>
         <?php include ("nav.php"); ?>
     </header>
+    <div class="header-bg">
+        <div class="overlay"></div>
+        <div class="overlay-2">
+            <div class="trans-bg">
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/uniform-noor.png"></a></div></div>
+            </div>
+        </div>
+    </div>
     <div class="fixed-nav">
         <p class="pg-title">Chapter 3: <br>Recruitment</p>
         <a href="<?php echo home_url(); ?>/chapter-03-recruitment/" class="pg-alt-bk">
@@ -21,12 +29,6 @@
         </a>
     </div>
     <section>
-
-    <div class="carousel">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><div class="img"><a class="zoom" class="fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/uniform-noor.png"></a></div></div>
-        </div>
-    </div>
 
     <div class="tile">
         <div class="img"></div>
@@ -58,8 +60,11 @@
     </section>
 
     
-    <a href="<?php echo home_url(); ?>/chapter-03-recruitment/what-role-quiz/" class="btn-back">
-        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    <a href="<?php echo home_url(); ?>/chapter-04-training/" class="nav-banner">
+        <div class="content">
+            <div class="text">Go to Chapter 4</div>
+            <div class="img"></div>
+        </div>
     </a>
 
 </main>

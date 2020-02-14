@@ -29,12 +29,12 @@
 
         <div class="map">
             <div class="img">
-                <div class="number button" data-modal="modalOne">2</div>
-                <div class="number button" data-modal="modalTwo">1</div>
-                <div class="number button" data-modal="modalThree">3</div>
-                <div class="number button" data-modal="modalFour">4</div>
-                <div class="number button" data-modal="modalFive">5</div>
-                <div class="number button" data-modal="modalSix">6</div>
+                <div class="number button" data-modal="modalOne" data-aos="zoom-in" data-aos-delay="50">2</div>
+                <div class="number button" data-modal="modalTwo" data-aos="zoom-in" data-aos-delay="200">1</div>
+                <div class="number button" data-modal="modalThree" data-aos="zoom-in" data-aos-delay="400">3</div>
+                <div class="number button" data-modal="modalFour" data-aos="zoom-in" data-aos-delay="550">4</div>
+                <div class="number button" data-modal="modalFive" data-aos="zoom-in" data-aos-delay="700">5</div>
+                <div class="number button" data-modal="modalSix" data-aos="zoom-in" data-aos-delay="850">6</div>
 
                 <div id="modalOne" class="modal">
                     <div class="modal-content">
@@ -141,7 +141,7 @@
         <div class="head">
             <div class="border"></div>
             <h2 class="quote">“Everybody loved Nora”</h2>
-            <h5>Friend Nancy Roberts</h5>
+            <h5>Nancy Roberts, Friend </h5>
         </div>
 
         <p>Noor’s family was loving, and she was particularly close to her younger brother Vilayat. Their father

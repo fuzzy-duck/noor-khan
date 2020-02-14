@@ -38,15 +38,15 @@
     
     <div class="tiles-grid">
         <div class="tile">
-            <div class="img img-01"></div>
+            <div class="img img-01" data-aos="slide-right" data-aos-offset="50"></div>
             <div class="text-01">
             <div class="info">
             <div class="text">
                     <div class="col">
                         <p></p>
                     </div>
-                    <div class="col">
-                        <p><span>15,253</span></p>
+                    <div class="col" data-aos="slide-left" data-aos-offset="50">
+                        <p><span class='numscroller' data-min='1' data-max='15253' data-delay='5' data-increment='100'>15,253</span></p>
                         <p> United Kingdom</p>
                     </div>
                 </div>
@@ -57,19 +57,19 @@
 
     <div class="tiles-grid">
         <div class="tile">
-            <div class="text-02">
-                <p><span>3,031</span></p>
+            <div class="text-02" data-aos="slide-right" data-aos-offset="150">
+                <p><span class='numscroller' data-min='1' data-max='3031' data-delay='5' data-increment='10'>3,031</span></p>
                 <p>Canadian</p>
             </div>
-            <div class="img img-02"></div>
+            <div class="img img-02" data-aos="slide-left" data-aos-offset="150"></div>
         </div>
     </div>
 
     <div class="tiles-grid">
         <div class="tile">
-            <div class="img img-03"></div>
-            <div class="text-03">
-                <p><span>1,383</span></p>
+            <div class="img img-03" data-aos="slide-right" data-aos-offset="100"></div>
+            <div class="text-03" data-aos="slide-left" data-aos-offset="100">
+                <p><span class='numscroller' data-min='1' data-max='1383' data-delay='5' data-increment='10'>1,383</span></p>
                 <p>Australian</p>
             </div>
         </div>
@@ -77,19 +77,19 @@
 
     <div class="tiles-grid">
         <div class="tile">
-            <div class="text-04">
-                <p><span>573</span></p>
+            <div class="text-04" data-aos="slide-right" data-aos-offset="100">
+                <p><span class='numscroller' data-min='1' data-max='573' data-delay='5' data-increment='10'>573</span></p>
                 <p>New Zealand</p>
             </div>
-            <div class="img img-04"></div>
+            <div class="img img-04" data-aos="slide-left" data-aos-offset="100"></div>
         </div>
     </div>
 
     <div class="tiles-grid">
         <div class="tile">
-            <div class="img img-05"></div>
-            <div class="text-05">
-                <p><span>167</span></p>
+            <div class="img img-05" data-aos="slide-right" data-aos-offset="100"></div>
+            <div class="text-05" data-aos="slide-left" data-aos-offset="100">
+                <p><span class='numscroller' data-min='1' data-max='167' data-delay='2' data-increment='10'>167</span></p>
                 <p>South African</p>
             </div>
         </div>
@@ -97,11 +97,11 @@
 
     <div class="tiles-grid">
         <div class="tile">
-            <div class="text-06">
-                <p><span>7</span></p>
+            <div class="text-06" data-aos="slide-right" data-aos-offset="100">
+                <p><span class='numscroller' data-min='1' data-max='7' data-delay='1' data-increment='1'>7</span></p>
                 <p>Indian</p>
             </div>
-            <div class="img img-06"></div>
+            <div class="img img-06" data-aos="slide-left" data-aos-offset="100"></div>
         </div>
     </div>
 
@@ -115,7 +115,7 @@
         </div>
 
         <h5 class="low">Total</h5>
-        <h2>20,264</h2>
+        <h2 class='numscroller' data-min='1' data-max='20264' data-delay='2' data-increment='100'>20,264</h2>
 
     </div>
 
@@ -131,8 +131,8 @@
     
                     </div>
                     <div class="col">
-                    <span>9</span><p>SOE Agents</p>
-                    <span>5</span><p>are women</p>
+                    <span class='numscroller' data-min='1' data-max='9' data-delay='1' data-increment='2'>9</span><p>SOE Agents</p>
+                    <span class='numscroller' data-min='1' data-max='5' data-delay='1' data-increment='1'>5</span><p>are women</p>
                     </div>
                 </div>
             </div>
@@ -146,22 +146,22 @@
         <div class="grid">
             <div class="col">
                 <p>Youngest</p>
-                <span>15</span>
+                <span class='numscroller' data-min='1' data-max='15' data-delay='1' data-increment='1'>15</span>
             </div>
             <div class="col">
                 <p>Oldest</p>
-                <span>51</span>
+                <span class='numscroller' data-min='1' data-max='51' data-delay='1' data-increment='5'>51</span>
             </div>
         </div>
         <div class="sub">
-            <span>2,483</span><p>Under 21</p>
+            <span class='numscroller' data-min='1' data-max='2483' data-delay='5' data-increment='10'>2,483</span><p>Under 21</p>
         </div>
         <div class="btm">
 
         </div>
     </div>
 
-    <a href="<?php echo home_url(); ?>/chapter-02-before-the-war/" class="nav-banner">
+    <a href="<?php echo home_url(); ?>intro/raf-eagle/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 2</div>
             <div class="img"></div>

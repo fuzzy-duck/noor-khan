@@ -32,11 +32,19 @@
 
     <div class="map">
         <div class="map-bg">
-            <div class="number button showSingle" target="1" type="button" value="Click">1</div>
+            <div class="number button btn-1 showSingle" target="1" type="button" value="Click">1</div>
             <div class="number button showSingle" target="3" type="button" value="Click">3</div>
             <div class="number button showSingle" target="2" type="button" value="Click">2</div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".button").click(function(event){
+                $('html, body').animate({scrollTop: '+=250px'}, 800);
+            });
+        });
+    </script>
 
     <div class="info">
         <div id="target1" class="map-target" style="display:none">

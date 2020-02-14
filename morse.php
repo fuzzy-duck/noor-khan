@@ -83,11 +83,8 @@
 
     </section>
 
-    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
-        <div class="content">
-            <div class="img"></div>
-            <div class="text">Return to Map</div>
-        </div>
+    <a href="<?php echo home_url(); ?>/chapter-05-mission/betrayal-capture-and-imprisonment/" class="btn-back">
+        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
     </a>
 
 </main>

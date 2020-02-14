@@ -16,7 +16,8 @@ $peach: #DE765F;
 // Vars 
 $padding: calc(1 * 1em);
 $bodyPadding: calc(2 * 1em);  
-$tabletPadding: calc(4 * 1em);  
+$tabletPadding: calc(4 * 1em);
+$noorTabPadding: calc(4 * 1em) calc(8 * 1em); 
 
 * { 
   box-sizing: border-box;
@@ -76,6 +77,18 @@ header {
     }
   }
 
+.header-bg {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: -119px !important;
+  }
+}
+
+section {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding: $noorTabPadding !important;
+  }
+}
+
 a.btn-link {
     button {
         display: flex;
@@ -104,6 +117,9 @@ a.btn-link {
             display: flex;
             padding: 19px;
             font-size: 14px;
+            @media (min-width: 768px) and (max-width: 1024px) {
+              width: 75%;
+            }
             p {
               font-size: 14px;
               font-family: 'Alata-Regular';
@@ -144,6 +160,10 @@ a.btn-back {
       display: flex;
       margin: 30px auto;
       width: 50%;
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 25%;
+        margin: 90px auto;
+    }
       span {
           height: 100%;
           width: 100%;
@@ -151,8 +171,8 @@ a.btn-back {
           text-transform: uppercase;
           background: $lightBlue;
           color: $white;
-          padding: 19px;
-          font-size: 18px;
+          padding: 22px;
+           font-size: 14px;
           font-weight: 500;
           letter-spacing: 0.2em;
       }
@@ -395,4 +415,12 @@ button.fancybox-button.fancybox-button--arrow_right {
 a.btn-back button {
   background: transparent;
   border: none;
+}
+.end-btn {
+  a.btn-back button {
+    width: 75%;
+      .icon-box {
+        width: 37%;
+    }
+  }
 }

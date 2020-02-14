@@ -19,7 +19,8 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor with her veena</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/noor-sitar.png" href="<?php bloginfo('template_directory');?>/assets/img/ave-foch.png" ></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor with her veena</h5><p>S Basu</p>" 
+            href="<?php bloginfo('template_directory');?>/assets/img/ave-foch.png" ></a>
             </div>
         </div>
     </div>
@@ -69,11 +70,15 @@
         <h5>(Noor to a fellow prisoner) She was able to communicate with fellow prisoners through messages scratched into food bowls. She was heartened when they told her the Allies had invaded France in June 1944; surely the war, and her captivity, would be over soon.</h5>
     </div>
 
-    <a href="<?php echo home_url(); ?>/chapter-05-mission/radio-training-pt-1/" class="btn-back">
-        <button><span>Next</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
-    </a>
 
 </section>
+
+<a href="<?php echo home_url(); ?>/chapter-06-death-legacy/" class="nav-banner">
+        <div class="content">
+            <div class="text">Go to Chapter 6</div>
+            <div class="img"></div>
+        </div>
+    </a>
 
 </main>
 

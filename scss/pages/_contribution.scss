@@ -4,7 +4,7 @@
         padding: $bodyPadding;
         overflow: hidden;
         @media (min-width: 768px) and (max-width: 1024px) {
-            padding: $tabletPadding;
+            padding: $noorTabPadding;
         }
         .carousel .owl-carousel .owl-dots {
             margin-top: -90px;

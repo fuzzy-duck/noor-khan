@@ -8,10 +8,10 @@
 <?php get_header(); ?>
 <main id="question">
     <header>
-        <div class="title">
+        <a href="<?php echo home_url(); ?>/home" class="title">
             <h3>Noor Inayat-Khan</h3>
             <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
-        </div>
+        </a>
         <?php include ("nav.php"); ?>
     </header>
     <div class="fixed-nav">

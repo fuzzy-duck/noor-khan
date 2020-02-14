@@ -15,6 +15,7 @@ Global
 @import 'global/_nav';
 @import 'global/_runnymede-nav';
 @import 'global/_owl';
+@import 'global/_activities';
 
 /*
 Pages
@@ -53,11 +54,10 @@ Pages
 @import 'pages/_operating';
 @import 'pages/_betrayal';
 @import 'pages/_radio-training';
+@import 'pages/_morse';
 
 // Ch6
 @import 'pages/_execution';
 @import 'pages/_after';
 @import 'pages/_meaning';
 
-
-@import 'pages/_morse';

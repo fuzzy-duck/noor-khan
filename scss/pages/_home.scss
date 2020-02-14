@@ -17,6 +17,9 @@
                 and (-webkit-device-pixel-ratio : 3) { 
                     width: 250px;
                 }
+                @media (min-width: 768px) and (max-width: 1024px) {
+                    height: 187%;
+                  }
             .img {
                 background: url(assets/img/noor.png) no-repeat center center;
                 background-size: contain;
@@ -45,7 +48,8 @@
 
                 // iPad
                 @media (min-width: 768px) and (max-width: 1024px) {
-                    width: 180%;                    
+                    width: 183%;
+                    left: -85%;                    
                   }
             }
         }

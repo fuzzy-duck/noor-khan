@@ -117,8 +117,8 @@
     }
     .upper {
         padding: calc(2 * 1em);  
-        @media (min-width: 768px) {
-            padding: $tabletPadding;
+        @media (min-width: 768px) and (max-width: 1024px) {
+            padding: $noorTabPadding;
         }
 
         .head {

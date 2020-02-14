@@ -12,7 +12,7 @@
         
             <div class="content">
                 <a href="<?php echo home_url(); ?>/runnymede" class="nav-map"><div class="icon ic-1"></div><div class="text">Runnymede Map</div></a>
-                <a href="<?php echo home_url(); ?>/runnymede" class="nav-map"><div class="icon ic-2"></div><div class="text">Activities</div></a>
+                <a href="<?php echo home_url(); ?>/activities" class="nav-map"><div class="icon ic-2"></div><div class="text">Activities</div></a>
             </div>
         <div class="nav-border"></div>
         <nav>

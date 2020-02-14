@@ -36,10 +36,10 @@
 
     </section>
 
-    <a href="<?php echo home_url(); ?>/runnymede" class="nav-banner">
+    <a href="<?php echo home_url(); ?>/end" class="nav-banner">
         <div class="content">
+            <div class="text">Finish</div>
             <div class="img"></div>
-            <div class="text">Return to Map</div>
         </div>
     </a>
 

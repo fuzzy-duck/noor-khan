@@ -10,7 +10,7 @@
             width: 100%;
             @media (min-width: 768px) and (max-width: 1024px) {
                 transform: translate(-50%);
-                width: 47%;
+                width: 100%;
                 left: 50%;
             }
             button.owl-prev {
@@ -45,7 +45,7 @@
             @media (min-width: 768px) and (max-width: 1024px) {
                 left: 50%;
                 transform: translateX(-50%);
-                width: 47%;
+                width: 100%;
             }
             .owl-dot {
                 pointer-events: all;
@@ -96,7 +96,7 @@
                 bottom: -4px;
                 left: 12px;
                 @media (min-width: 768px) and (max-width: 1024px) {
-                    left: 29%;
+                    left: 2%;
                 }
             }
         }

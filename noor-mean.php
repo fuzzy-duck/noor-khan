@@ -24,7 +24,7 @@
 
     <section>
 
-    <video class="video-container" autoplay loop muted playsinline controls>
+    <video class="video-container" loop muted playsinline controls>
         <source type='video/mp4' src='http://ducknest.co.uk//noor-khan/wp-content/uploads/2020/video/Noor%20-%20Modern%20Role%20Model%20v1.0.mp4'>
     </video>
 
@@ -36,7 +36,7 @@
 
     </section>
 
-    <a href="<?php echo home_url(); ?>/end" class="nav-banner">
+    <a href="<?php echo home_url(); ?>/end-screen/" class="nav-banner">
         <div class="content">
             <div class="text">Finish</div>
             <div class="img"></div>

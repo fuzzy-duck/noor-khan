@@ -146,18 +146,19 @@
     }
 
     .nav-banner {
-        height: 60px;
+        height: 80px;
         width: 100%;
         display: grid;
         justify-content: center;
         align-items: center;
         background: $yellow;
-        margin: 0px 0px 50px;
+        margin: 0px 0px -25px;
         .content {
             display: grid;
-            grid-template-columns: 120px 50px;
+            grid-template-columns: 180px 50px;
             justify-content: center;
             align-items: center;
+            margin-left: 30px;
             .img {
                 background: url(assets/icon/blue-arrow-right.svg) no-repeat center center;
                 background-size: contain;
@@ -167,6 +168,9 @@
             .text {
                 color: $bodyBg;
                 font-family: 'Alata-Regular';
+                text-align: center;
+
+                letter-spacing: 0.1em;
             }
         }
     }
@@ -251,6 +255,15 @@
             }
         }
     }
+    .nav-banner-last {
+        display: none !important;
+    }
+}
+
+.page-id-63 {
+    .nav-banner-last {
+        display: none !important;
+    }
 }
 
 .page-id-101 {
@@ -273,6 +286,9 @@
             }
         }
     }
+    .nav-banner-last {
+        display: none !important;
+    }
 }
 
 .page-id-115 {
@@ -294,6 +310,9 @@
             }
         }
     }
+    .nav-banner-last {
+        display: none !important;
+    }
 }
 
 .page-id-136 {
@@ -312,6 +331,9 @@
                     }
                 }
             }
+        }
+        .nav-banner-last {
+            display: none;
         }
     }
 
@@ -355,41 +377,78 @@
                 margin-bottom: 50px;
             }
         }
+        .nav-banner-last {
+            display: none;
+        }
     }
 
 
 
 
 .page-id-145 {
-    .lower {
-        .link { 
-            height: 525px !important; 
+    #chapters {
+        .lower {
+            a.link { 
+                height: 525px !important; 
+    
+                &:nth-child(3) {
+                 height: 350px !important;
+                    button {
+                        margin: -140px auto 30px !important;
+                    }
+                }
+                .img {
+                    width: 151% !important;
+                    margin-left: -35px !important;
+                    background-size: contain !important;
+                    &:nth-last-of-type() {
+                        width: 100% !important;
+                        height: 200px;
+                        background-size: contain;
+                    }
+                }
 
-            &:nth-child(3) {
-             height: 350px !important;
-             .img {
-                width: 110% !important;
-                margin-left: -5% !important;
-                background-size: contain !important;
-             }
-             button {
-                margin: -140px auto 30px !important;
-            }
-            }
-            .img {
-                width: 151% !important;
-                margin-left: -35px !important;
-                background-size: cover !important;
-            }
-            button {
-                margin: -170px auto 30px !important;
-            }
-            button:nth-last-of-type() {
-                margin: -20px auto 30px !important;
+                button:nth-last-of-type() {
+                    margin: -20px auto 30px !important;
+                }
             }
         }
-    }
-    a.nav-banner {
-        display: none !important;
+        .lower .link:nth-last-of-type() .img {
+            width: 100%;
+            background-size: contain;
+        }
+        .nav-banner {
+            display: none !important;
+        }
+        .nav-banner-last {
+            height: 60px;
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background: $yellow;
+            margin: 0px 0px 50px;
+            .content {
+                display: grid;
+                grid-template-columns: 120px 50px;
+                justify-content: center;
+                align-items: center;
+                .img {
+                    background: url(assets/icon/blue-arrow-right.svg) no-repeat center center;
+                    background-size: contain;
+                    height: 30px;
+                    width: 33px;
+                }
+                .text {
+                    color: $bodyBg;
+                    font-family: 'Alata-Regular';
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .lower a.btn-link button {
+            margin: -200px auto 30px !important;
+        }
     }
 }

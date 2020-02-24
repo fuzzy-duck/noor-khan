@@ -50,7 +50,7 @@
     
     <div class="thumb">
         <div class="img-2">
-            <div class="gradientz"> <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/crematorium.png" ></a></div>
+            <div class="gradientz"> <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Crematorium in Dachau</h5><p>S Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/crematorium.png" ></a></div>
         </div>
     </div>
     

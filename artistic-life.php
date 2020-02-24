@@ -56,9 +56,49 @@
         display after the Second World War broke out that very year.</p>
 
         <div class="links">
-            <a href="http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/audio/Noor%20Poem_CWGC.wav" class="btn-link"><button><span>Listen to poem</span><div class="icon-box"><div class="icon-ply"></div></div></button></a>
-            <a href="#" class="btn-link"><button><span>Listen to veena music</span><div class="icon-box"><div class="icon-ply"></div></div></button></a>
+            <a data-modal="modalOne" class="btn-link"><button><span>Listen to poem</span><div class="icon-box"><div class="icon-ply"></div></div></button></a>
+            <!-- <a href="#" class="btn-link"><button><span>Listen to veena music</span><div class="icon-box"><div class="icon-ply"></div></div></button></a> -->
         </div>
+
+            <!-- Models -->
+            <div id="modalOne" class="modal">
+                <div class="modal-content">
+                    <div class="contact-form">
+                    <a class="close"><span></span></a>
+                    <h2>Listen to poem</h2>
+                    <div class="border-white"></div>
+                    <audio controls>
+                        <source src="http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/audio/Noor%20Poem_CWGC.wav" type="audio/ogg">
+                    </audio>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+        
+            var modalBtns = [...document.querySelectorAll(".btn-link")];
+            modalBtns.forEach(function(btn){
+            btn.onclick = function() {
+                var modal = btn.getAttribute('data-modal');
+                document.getElementById(modal).style.display = "block";
+            }
+            });
+
+            var closeBtns = [...document.querySelectorAll(".close")];
+            closeBtns.forEach(function(btn){
+            btn.onclick = function() {
+                var modal = btn.closest('.modal');
+                modal.style.display = "none";
+            }
+            });
+
+            window.onclick = function(event) {
+            if (event.target.className === "modal") {
+                event.target.style.display = "none";
+            }
+            }
+        
+        </script>
 
         <div class="head">
             <h2 class="quote">“I remember her as a very gentle girl, but she studied so hard that I thought she must have an inner fire which her quiet manner hid.”</h2>
@@ -67,7 +107,7 @@
 
     </section>
 
-    <a href="<?php echo home_url(); ?>/chapter-03-recruitment" class="nav-banner">
+    <a href="<?php echo home_url(); ?>/intro/date-panels/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 3</div>
             <div class="img"></div>

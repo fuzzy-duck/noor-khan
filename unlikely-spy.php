@@ -19,7 +19,7 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Paris street scene, Bundesarchiv Bild</h5><p>Langhaus 1941</p>" href="<?php bloginfo('template_directory');?>/assets/img/holiday.png" ></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor on holiday The Hague in her early 20s</h5><p>S. Basu</p>" href="<?php bloginfo('template_directory');?>/assets/img/holiday.png" ></a>
             </div>
         </div>
     </div>

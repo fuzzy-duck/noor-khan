@@ -19,7 +19,7 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Paris street scene, Bundesarchiv Bild</h5><p>Langhaus 1941</p>" href="<?php bloginfo('template_directory');?>/assets/img/george_cross.png" ></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>George Cross Medal</h5><p>IWM</p>" href="<?php bloginfo('template_directory');?>/assets/img/george_cross.png" ></a>
             </div>
         </div>
     </div>

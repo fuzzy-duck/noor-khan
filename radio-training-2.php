@@ -38,9 +38,7 @@
         <input name="ratezeichen" type="text" size="5" maxlength="1" placeholder="Tap to guess a letter">
         <input name="ratebutton" type="button" value="Guess" onClick="pruefeZeichen()">
 
-        <!--
         <p id="gerateneBuchstaben">Wrong Letters:<br></p>
-        -->
 
     </div>
 
@@ -82,6 +80,10 @@
         }
         
     </script>
+
+    <a href="<?php echo home_url(); ?>/chapter-05-mission/betrayal-capture-and-imprisonment/" class="btn-back">
+        <button><span>Skip</span><div class="icon-box"><div class="icon-fwd"></div></div></button>
+    </a>
 
     </section>
 

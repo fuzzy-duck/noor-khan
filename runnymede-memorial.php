@@ -19,7 +19,7 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/runnymede-memorial.png" ></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="/assets/img/runnymede-memorial.png" ></a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
     <p>Richly decorated with carved, sculpted, painted and etched symbols of flight and the flying services, it’s a special place to remember those who died so we could be free.</p>
 
     <div class="inner">
-        <video class="video-container" autoplay loop muted playsinline controls>
+        <video class="video-container" loop muted playsinline controls>
             <source src='http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/video/Runnymede%20Memorial%20v1.0.mp4'>
         </video>
 

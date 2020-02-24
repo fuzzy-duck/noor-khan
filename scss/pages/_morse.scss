@@ -121,7 +121,7 @@
                 height: 100%;
                 width: 100%;
                 margin: auto;
-                margin-top: -50px;
+                //margin-top: -50px;
                 @media (min-width: 768px) and (max-width: 1024px) {
                     position: absolute;
                         left: 81%;
@@ -142,7 +142,7 @@
             width: 100px;
             height: 100px;
             border-radius: 100%;
-            border: 5px solid $subBlack;
+            border: none;
             background: transparent;
             margin: 50px auto;
             position: absolute;

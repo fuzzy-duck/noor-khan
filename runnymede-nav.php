@@ -33,8 +33,8 @@
 
     <section>
         <div class="sub-nav">
-            <a href="<?php echo home_url(); ?>/the-air-forces-memorial/" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon"></div>The Memorial</a>
-            <a href="<?php echo home_url(); ?>#" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon"></div>Symbol Hunt</a>
+            <a href="<?php echo home_url(); ?>/the-air-forces-memorial/" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon-1"></div>The Memorial</a>
+            <a href="<?php echo home_url(); ?>/symbol-hunt/" class="btn" data-aos="zoom-in" data-aos-delay="500"><div class="icon-2"></div>Symbol Hunt</a>
         </div>
         <div class="upper">
 

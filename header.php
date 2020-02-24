@@ -23,8 +23,18 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery.fancybox.min.css' ?>">
     <!-- fancybox.js -->
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery.fancybox.min.js'?>"></script>
+    <!-- jquery-UI.css -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery-ui.min.css' ?>">
+    <!-- jquery-UI.js -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery-ui.min.js'?>"></script>
+    <!-- jquery-UI-touch-punch.js -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/jquery.ui.touch-punch.js'?>"></script>
     <!-- Animate CSS -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/vendor/animate.min.css' ?>">
+    <!-- Tween -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/tweenMax.min.js' ?>"></script>
+    <!-- Dragabble -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/draggable.min.js' ?>"></script>
     <!-- AOS -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/vendor/aos.css' ?>">
      <!-- Num Scroll -->

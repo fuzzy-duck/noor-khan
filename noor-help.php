@@ -20,7 +20,7 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Badge of the Royal Air Force</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/1192.png"></a>
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Badge of the Royal Air Force</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/1192_dup.png"></a>
             </div>
         </div>
     </div>

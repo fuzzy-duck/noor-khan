@@ -11,7 +11,7 @@
     <a href="<?php echo home_url(); ?>/chapter-01-who-was-noor-inayat-khan/" class="close"><span></span></a>
     <div class="inner">
 
-        <video class="video-container" autoplay loop muted playsinline>
+        <video class="video-container" playsinline>
             <source src='<?php the_field('video'); ?>'>
         </video>
 

@@ -2,6 +2,7 @@
     <aside>
         <div class="nav-top">
             <a href="<?php echo home_url(); ?>" class="title">
+                <!-- <div class="img"></div> -->
                 <h3>Noor Inayat-Khan</h3>
                 <h5><span>A</span> Woman <span>of</span> Conspicuous Courage</h5>
             </a>
@@ -12,7 +13,7 @@
         
             <div class="content">
                 <a href="<?php echo home_url(); ?>/runnymede" class="nav-map"><div class="icon ic-1"></div><div class="text">Runnymede Map</div></a>
-                <a href="<?php echo home_url(); ?>/activities" class="nav-map"><div class="icon ic-2"></div><div class="text">Activities</div></a>
+                <a href="<?php echo home_url(); ?>/activities" class="nav-map"><div class="icon ic-2"></div><div class="text">Games</div></a>
             </div>
         <div class="nav-border"></div>
         <nav>

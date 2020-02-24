@@ -19,7 +19,7 @@
         <div class="overlay"></div>
         <div class="overlay-2">
             <div class="trans-bg">
-            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Noor with her veena</h5><p>S Basu</p>" 
+            <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>Ave Foch 84</h5><p>SWW experience centre website</p>" 
             href="<?php bloginfo('template_directory');?>/assets/img/ave-foch.png" ></a>
             </div>
         </div>
@@ -61,7 +61,7 @@
 
     <p>The next day, 26 November 1943, Noor was sent to Pforzheim prison in Germany. Classed as a ‘dangerous’ prisoner – perhaps because of her escape attempts – she was kept in constant isolation, shackled by her hands and feet. Despite being starved, she meditated and her Sufi philosophy kept her going.</p>
     </div>
-    <div class="thumb-2"><div class="img"></div></div>
+    <div class="thumb-2"><img src="<?php bloginfo('template_directory');?>/assets/video/report_extract.gif"></div>
     <h5>‘Nacht und Nebel’ (‘Night and Fog') which permitted Nazi authorities to 'disappear' people like Noor without a trace.</h5>
 
     <div class="border"></div>
@@ -73,7 +73,7 @@
 
 </section>
 
-<a href="<?php echo home_url(); ?>/chapter-06-death-legacy/" class="nav-banner">
+<a href="<?php echo home_url(); ?>/intro/justice-victory-courage/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 6</div>
             <div class="img"></div>

@@ -49,8 +49,8 @@
                 text-decoration: underline;
             }
             p {
-                font-size: 12px;
-                line-height: 1.6em;
+                font-size: 18px;
+                line-height: 1.4em;
                 @media (min-width: 768px) and (max-width: 1024px) {
                     font-size: 18px;
                   }
@@ -153,14 +153,15 @@
         padding: $bodyPadding;
         margin-top: -85px;
         .content {
-            margin: 25px 0px;
+            margin: 0 auto;
             text-align: center;
+            width: 100%;
             h5 {
                 color: $yellow;
                 text-align: center;
             }
             p#ratefeld {
-                width: 57%;
+                width: 100%;
                 margin: auto;
                 font-size: 27px;
             }
@@ -168,7 +169,7 @@
                 margin: 50px auto;
                 display: grid;
                 grid-template-columns: 1fr 70px;
-                width: 75%;
+                width: 100%;
                 input[type="text"] {
                     width: 100%;
                     margin: auto;
@@ -193,6 +194,7 @@
                     font-size: 12px;
                     text-transform: uppercase;
                     font-weight: 600;
+                    margin-left: 22%;
                 }
             }
         }
@@ -267,7 +269,9 @@
             margin: 30px 0px;
             width: 70%;
             height: 100%;
-            margin: 0 auto;
+        }
+        a.btn-back button {
+            margin: -30px auto 50px;
         }
     }
 }

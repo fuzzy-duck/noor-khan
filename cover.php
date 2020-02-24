@@ -52,19 +52,9 @@
     </div>
     -->
 
-
-    <h2>Life in the SOE</h2>
-    <div class="border-dup"></div>
-
-    <p>Members of the Guiding movement – Brownies, Guides and Rangers – from Maidenhead and surrounding areas learned about Noor’s story by doing as she did. They tried code making and cracking and learnt to send transmissions using a Morse key from the 1940s. Here’s what it taught them about Noor’s special technical skills.</p>
-
-    <video class="video-container" autoplay loop muted playsinline controls>
-        <source src='http://ducknest.co.uk/noor-khan/wp-content/uploads/2020/video/Noor%20-%20Life%20in%20SEO%20v1.0.mp4'>
-    </video>
-
         </section>
 
-        <a href="<?php echo home_url(); ?>/chapter-05-mission/" class="nav-banner">
+        <a href="<?php echo home_url(); ?>/intro/tower/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 5</div>
             <div class="img"></div>

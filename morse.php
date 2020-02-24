@@ -43,6 +43,10 @@
             sound.play()
         }
         </script>
+
+        <div class="msg">
+            <img src="<?php bloginfo('template_directory');?>/assets/video/Wave.gif">
+        </div>
         
         <div id="modalOne" class="modal">
         <div class="modal-content">

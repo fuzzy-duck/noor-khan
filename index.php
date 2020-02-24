@@ -16,10 +16,10 @@
     </section>
     <section class="lower">
     <div class="main-img" data-aos="fade-up" data-aos-duration="1000">
-            <div class="img"></div>
+            <div class="img" alt="Noor Khan logo"></div>
         </div>
         <p class="body-para" data-aos="fade-up" data-aos-duration="1000" ><?php the_field('para'); ?></p>
-        <a href="<?php echo home_url(); ?>/intro" data-aos="fade-up" data-aos-duration="1000"><div class="begin"></div></a>
+        <a href="<?php echo home_url(); ?>/intro"><div class="begin"></div></a>
         <div class="logos">
             <div class="logo-1"></div>
             <div class="logo-2"></div>

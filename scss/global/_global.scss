@@ -67,6 +67,7 @@ header {
       h5 {
         margin: 0px;
         font-family: 'Alata-Regular';
+        font-size: 10px;
         @media screen and (device-aspect-ratio: 40/71) {
           font-size: 10px;
         }
@@ -211,18 +212,19 @@ a.btn-back {
 }
 
 .nav-banner {
-  height: 60px;
+  height: 80px;
   width: 100%;
   display: grid;
   justify-content: center;
   align-items: center;
   background: $yellow;
-  margin: 0px 0px 50px;
+  margin: 0px 0px -25px;
   .content {
       display: grid;
-      grid-template-columns: 140px 50px;
+      grid-template-columns: 180px 50px;
       justify-content: center;
       align-items: center;
+      margin-left: 30px;
       .img {
           background: url(assets/icon/blue-arrow-right.svg) no-repeat center center;
           background-size: contain;
@@ -233,6 +235,8 @@ a.btn-back {
           color: $bodyBg;
           font-family: 'Alata-Regular';
           text-transform: uppercase;
+          text-align: center;
+          letter-spacing: 0.1em;
       }
   }
 }
@@ -326,6 +330,19 @@ a.btn-back {
 // Fancybox 
 .fancybox-is-open .fancybox-bg {
   opacity: .99 !important;
+}
+
+.fancybox-content {
+  max-height: 520px;
+}
+
+.fancybox-caption__body h5 {
+  text-transform: uppercase !important;
+  font-size: 16px !important;
+}
+
+.fancybox-caption__body p {
+  font-size: 18px !important;
 }
 
 button.fancybox-button.fancybox-button--zoom {

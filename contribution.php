@@ -161,7 +161,7 @@
         </div>
     </div>
 
-    <a href="<?php echo home_url(); ?>intro/raf-eagle/" class="nav-banner">
+    <a href="<?php echo home_url(); ?>/intro/raf-eagle/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 2</div>
             <div class="img"></div>

@@ -60,7 +60,7 @@
     </section>
 
     
-    <a href="<?php echo home_url(); ?>/chapter-04-training/" class="nav-banner">
+    <a href="<?php echo home_url(); ?>/intro/windows-in-shrine/" class="nav-banner">
         <div class="content">
             <div class="text">Go to Chapter 4</div>
             <div class="img"></div>

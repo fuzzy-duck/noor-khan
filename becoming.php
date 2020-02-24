@@ -56,6 +56,11 @@
             weapons, and transmitting in Morse code. <br><br>Agents were closely watched to see how they behaved
             when they drank alcohol, whether they gambled – as they carried large sums of money undercover –
             and even whether they talked in their sleep.</p>
+            <div class="thumb">
+                <div class="img">
+                    <div class="gradientz"> <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/placeholder.png" ></a></div>
+                </div>
+            </div>
         </div>
         <div id="target2" class="map-target" style="display:none">
             <h2>Thame Park, Oxfordshire</h2>
@@ -71,6 +76,11 @@
                 <li>The different types of code used by the SOE to send messages securely</li>
                 <li>How to incorporate personalised security checks into their radio transmissions, to warn home station if they were captured</li>
             </ul>
+            <div class="thumb">
+                <div class="img">
+                    <div class="gradientz"> <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/placeholder.png" ></a></div>
+                </div>
+            </div>
         </div>
         <div id="target3" class="map-target" style="display:none">
             <h2>Beaulieu, New Forest, Hampshire</h2>
@@ -85,6 +95,11 @@
                 <li>Acting like a French person, from table manners and local slang to fashion and hairstyles</li>
                 <li>The way of life and latest regulations in Occupied France, such as curfew times, rationing and types of identity card</li>
             </ul>
+            <div class="thumb">
+                <div class="img">
+                    <div class="gradientz"> <a class="zoom fancybox" data-fancybox="gallery" data-caption="<div class='border'></div><br/><h5>This is the caption</h5><p>Credit goes here</p>" href="<?php bloginfo('template_directory');?>/assets/img/placeholder.png" ></a></div>
+                </div>
+            </div>
         </div>
     </div>
 

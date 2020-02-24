@@ -38,7 +38,7 @@
     <p>Opinion was divided among her instructors; several praised her determination and perseverance despite perhaps a lack of natural talent and an emotional character:</p>
 
     <div class="msg">
-        <img src="<?php bloginfo('template_directory');?>/assets/video/Quote-1-Alpha.gif">
+        <img src="<?php bloginfo('template_directory');?>/assets/video/Quote-3-Alpha-v4.gif">
     </div>
 
     <p>The hardest thing for her, though, was to pretend to be someone she was not.</p> 

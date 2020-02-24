@@ -29,9 +29,9 @@
 
         <div class="map">
             <div class="img">
-                <div class="number button" data-modal="modalOne" data-aos="zoom-in" data-aos-delay="50">2</div>
+                <div class="number button" data-modal="modalOne" data-aos="zoom-in" data-aos-delay="50">3</div>
                 <div class="number button" data-modal="modalTwo" data-aos="zoom-in" data-aos-delay="200">1</div>
-                <div class="number button" data-modal="modalThree" data-aos="zoom-in" data-aos-delay="400">3</div>
+                <div class="number button" data-modal="modalThree" data-aos="zoom-in" data-aos-delay="400">2</div>
                 <div class="number button" data-modal="modalFour" data-aos="zoom-in" data-aos-delay="550">4</div>
                 <div class="number button" data-modal="modalFive" data-aos="zoom-in" data-aos-delay="700">5</div>
                 <div class="number button" data-modal="modalSix" data-aos="zoom-in" data-aos-delay="850">6</div>

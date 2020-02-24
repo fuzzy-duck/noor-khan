@@ -103,6 +103,13 @@ $img = get_field('bg_img');
         </div>
     </a>
 
+    <a href="<?php echo home_url(); ?>/end/" class="nav-banner-last">
+        <div class="content">
+            <div class="text">Finish</div>
+            <div class="img"></div>
+        </div>
+    </a>
+
 </main>
 
 <div id="turn"><?php include ("turn.php"); ?></div>

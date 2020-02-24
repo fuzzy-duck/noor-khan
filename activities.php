@@ -21,36 +21,43 @@
     <h2><?php the_title() ?></h2>
     <div class="border-dup"></div>
 
-    <div class="lower">
-
-
-            <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
-                <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/eagle@2x.png) no-repeat center center;"></div>
-                <a href="<?php echo home_url(); ?>/#" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Symbol Hunt</p></span>
-                <div class="icon-box"><div class="icon"></div></button></a></div>
-            </a>
-
-            <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
-                <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/radiobox.png) no-repeat center center;"></div>
-                <a href="<?php echo home_url(); ?>/#" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Which job might you have done?</p></span>
-                <div class="icon-box"><div class="icon"></div></button></a></div>
-            </a>
-
-            <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
-                <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/morse-cheat-sheet.png) no-repeat center center;"></div>
-                <a href="<?php echo home_url(); ?>/#" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Radio Training</p></span><div class="icon-box">
-                    <div class="icon"></div></button></a>
+    <article class="lower">
+                <div class="box">
+                    <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
+                        <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/eagle@2x.png) no-repeat center center;"></div>
+                        <a href="<?php echo home_url(); ?>/symbol-hunt/" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Symbol Hunt</p></span>
+                        <div class="icon-box"><div class="icon"></div></button></a></div>
+                    </a>
                 </div>
-            </a>
 
-            <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
-                <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/da-role.png) no-repeat center center;"></div>
-                <a href="<?php echo home_url(); ?>/#" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Can you crack the code?</p></span><div class="icon-box">
-                    <div class="icon"></div></button></a>
+                <div class="box">
+                    <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
+                        <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/da-role.png) no-repeat center center;"></div>
+                        <a href="<?php echo home_url(); ?>//chapter-03-recruitment/what-role-quiz/" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Which job might you have done?</p></span>
+                        <div class="icon-box"><div class="icon"></div></button></a></div>
+                    </a>
                 </div>
-            </a>
 
-    </div>
+                <div class="box">
+                    <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
+                        <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/morse-cheat-sheet.png) no-repeat center center;"></div>
+                        <a href="<?php echo home_url(); ?>/radio-setup-pt1/" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Radio Training</p></span><div class="icon-box">
+                            <div class="icon"></div></button></a>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="<?php echo home_url(); ?>/#" class="link" data-aos="fade-right" data-aos-duration="500" data-aos-offset="100">
+                        <div class="img" style="background: url(<?php bloginfo('template_directory');?>/assets/img/radiobox.png) no-repeat center center;"></div>
+                        <a href="<?php echo home_url(); ?>/chapter-05-mission/radio-training-pt-1/" class="btn-link" data-aos="fade-up" data-aos-duration="500" data-aos-offset="-100"><button><span><p>Can you crack the code?</p></span><div class="icon-box">
+                            <div class="icon"></div></button></a>
+                        </div>
+                    </a>
+                </div>
+
+
+</article>
 
     </section>
 
